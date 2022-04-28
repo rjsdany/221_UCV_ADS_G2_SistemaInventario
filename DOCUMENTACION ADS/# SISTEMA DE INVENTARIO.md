@@ -6,10 +6,10 @@ INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO
 ---|---|---
 Damazo Valdeos, David Jared| 0000-0002-4823-7379| 100%
 Esteban Lastaunado, Dibail Sidane| | 100%
-Lopez Roman, Segundo Artemio| | 100%
-Obregon Moran, Max Smith| | 100%
+Lopez Roman, Segundo Artemio| 0000-0001-9993-6797| 100%
+Obregon Moran, Max Smith| 0000-0001-9226-5388| 100%
 Remigio Ramirez, George Neffer| | 100%
-Rocca Puma, Maykol| | 100%
+Rocca Puma, Maykol| 0000-0003-2979-0715| 100%
 Rojas Flores, Daniela Ariana| 0000-0001-7975-4785| 100%
 
 
