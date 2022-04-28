@@ -4,12 +4,13 @@
 ## ASESOR: RICHARD R. BERROCAL
 INTEGRANTES:| PORCENTAJE DE TRABAJO
 ---|---
-Damazo Valdeos, David Jared|
-Esteban Lastaunado, Dibail Sidane|
-Lopez Roman, Segundo Artemio|
-Obregon Moran, Max Smith|
-Rocca Puma, Maykol|
-Rojas Flores, Daniela Ariana|
+Damazo Valdeos, David Jared| 100%
+Esteban Lastaunado, Dibail Sidane| 100%
+Lopez Roman, Segundo Artemio| 100%
+Obregon Moran, Max Smith| 100%
+Remigio Ramirez, George Neffer| 100%
+Rocca Puma, Maykol| 100%
+Rojas Flores, Daniela Ariana| 100%
 
 
 ## RESEUMEN EJECUTIVO:
