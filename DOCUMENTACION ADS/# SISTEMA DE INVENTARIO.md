@@ -1,5 +1,5 @@
 ![LOGO](LogotipoUCV_VersiónLarga.png)
-## “PROYECTO DE ANALISIS DE SISTEMAS”
+## “PROYECTO DE ANÁLISIS DE SISTEMAS”
 # **SISTEMA DE INVENTARIO PARA LA EMPRESA NABU TECHNOLOGIES**
 ## ASESOR: RICHARD L. BERROCAL 
 INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO 
@@ -13,7 +13,7 @@ Rocca Puma, Maykol| 0000-0003-2979-0715| 100%
 Rojas Flores, Daniela Ariana| 0000-0001-7975-4785| 100%
 
 
-## RESEUMEN EJECUTIVO:
+## RESUMEN EJECUTIVO:
 Somos una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados. Este trabajo está enfocado en la implementación de un sistema de inventario en la empresa "Nabu Technologies" que tiene entre sus propósitos mejorar reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, optimización de proceso de venta.
 
 ## INTRODUCCION:
