@@ -34,7 +34,7 @@ El presente informe tiene como objetivos:
  - Practicar las políticas medioambientales.
  - Optimización de proceso de venta.
 
-#### Datos de la empresa
+### Datos de la empresa
 La empresa “Nabu technologies” es una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados.
 Esta empresa tiene como misión querer seguir brindando nuestros servicios adecuándose a las diversas situaciones que se presenten. “Nuestra visión es lograr el crecimiento de nuestra empresa, para poder adquirir más locales y así llegar a más personas. Todo eso mediante el respaldo de nuestros clientes.”
 Su organigrama está representado de la siguiente manera:
