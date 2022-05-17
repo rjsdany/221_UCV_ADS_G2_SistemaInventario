@@ -81,13 +81,13 @@ Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará
 CASOS DE USO DE NEGOCIO |	Descripción
 ---|---
 Administrar usuario|	El administrador puede ingresar, modificar y consultar un usuario.
-Administrar cliente|	El administrador y vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
+Administrar cliente|	El administrador y el vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
 Administrar proveedor|	El administrador puede ingresar, modificar y consultar un proveedor.
-Administrar producto|	El administrador y vendedor pueden ingresar, modificar, consultar y stock un producto.
-Realizar compra|	El administrador y vendedor pueden ingresar y consultar las compras.
-Realizar venta|	El administrador y vendedor pueden ingresar y consultar las ventas.
-Administrar stock|	El administrador y vendedor pueden consultar el registro de ingresos y salidas de producto.
-Administrar inventario|	El administrado puede ingresar y consultar el registro de ingresos y salidas de dinero.
+Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, consultar y stock un producto.
+Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
+Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
+Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
+Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
 
 #### 2.1.3 DIAGRAMA DE CASOS DE USO
 ![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
