@@ -16,7 +16,7 @@ Rojas Flores, Daniela Ariana| 0000-0001-7975-4785| 100%
 ## RESUMEN EJECUTIVO:
 Somos una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados. Este trabajo está enfocado en la implementación de un sistema de inventario en la empresa "Nabu Technologies" que tiene entre sus propósitos mejorar reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, optimización de proceso de venta.
 
-## INTRODUCCION:
+## INTRODUCCIÓN:
 
 Actualmente en coyuntura por la pandemia del COVID-19 el uso de tecnologías a nivel mundial vio un auge en el uso de la información (Del Mar, 2018) , esto ha dado paso a diversos países en incrementar la enseñanza virtualizada de la programación para grandes sectores  informáticos entre ellos los lenguajes de programación se popularizaron por el incremento de puestos de trabajo como programadores ,a raíz de esto diversos países ve reflejado en la mejora de los resultados en la adaptación y al uso de las tecnologías en el manejo de Inventarios en centros comerciales (Hernández et al., 2017) .
 
