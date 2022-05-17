@@ -1,7 +1,7 @@
 ![LOGO](LogotipoUCV_VersiónLarga.png)
 ## “PROYECTO DE ANALISIS DE SISTEMAS”
 # **SISTEMA DE INVENTARIO PARA LA EMPRESA NABU TECHNOLOGIES**
-## ASESOR: RICHARD R. BERROCAL 
+## ASESOR: RICHARD L. BERROCAL 
 INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO 
 ---|---|---
 Damazo Valdeos, David Jared| 0000-0002-4823-7379| 100%
@@ -14,7 +14,7 @@ Rojas Flores, Daniela Ariana| 0000-0001-7975-4785| 100%
 
 
 ## RESEUMEN EJECUTIVO:
-Somos una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados.
+Somos una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados. Este trabajo está enfocado en la implementación de un sistema de inventario en la empresa "Nabu Technologies" con algunos propósitos como mejorar reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, optimización de proceso de venta.
 
 ## INTRODUCCION:
 
@@ -27,6 +27,18 @@ Asimismo, el Perú se viene adaptando a la implementación de las nuevas tecnolo
 En cuanto (Ríos, 2018), en su estudio de “Sistema Web para mejorar el control de inventarios en la empresa Comercial Lucerito, 2018”, nos muestra como objetivo proponer un sistema web para mejorar el control de inventario en la empresa Comercial Lucerito, diagnosticando el estado actual para diseñar propuestas para mejorar el control de inventario, Este estudio pretende demostrar a través de una investigación holística, teorías y conceptos validos para evaluar la problemática global de la mencionada empresa, y de esta manera propone de manera eficiente la solución al problema, con la mejora del control y centralización de la información del inventario.
 
 Al respecto la investigación del inventario que se cuenta en la empresa “Nabu Technologies” no permite al usuario poder administrar de manera correcta sus ingresos y egresos, aun trabaja de manera anticuada registrando todo a través de boletas escritas a mano, lo cual no permite realizar una búsqueda de manera eficiente al momento de  querer visualizar registros pasados, una vez implementado el SI, se podrá visualizar de manera factible la producción exacta realizada, el material que ingresó a la empresa y distribución, todo de manera fácil e intuitiva con el usuario.
+
+El presente informe tiene como objetivos:
+ - Reducir los excedentes de servicios.
+ - Aumentar el ingreso en la empresa.
+ - Practicar las políticas medioambientales.
+ - Optimización de proceso de venta.
+
+#### Datos de la empresa
+La empresa “Nabu technologies” es una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados.
+Esta empresa tiene como misión querer seguir brindando nuestros servicios adecuándose a las diversas situaciones que se presenten. “Nuestra visión es lograr el crecimiento de nuestra empresa, para poder adquirir más locales y así llegar a más personas. Todo eso mediante el respaldo de nuestros clientes.”
+Su organigrama está representado de la siguiente manera:
+
 
 ## 1.	ESTUDIO DE FACTIBILIDAD
 
