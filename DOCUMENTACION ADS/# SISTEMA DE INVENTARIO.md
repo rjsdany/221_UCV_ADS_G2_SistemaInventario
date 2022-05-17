@@ -38,58 +38,57 @@ El presente informe tiene como objetivos:
 La empresa “Nabu technologies” es una microempresa que lleva 3 años en el mercado, que busca brindar servicios de venta de plásticos. Tenemos como principales actividades: fabricación de productos de bolsas de plásticos y venta al por menor productos nuevos en comercios especializados.
 Esta empresa tiene como misión querer seguir brindando nuestros servicios adecuándose a las diversas situaciones que se presenten. “Nuestra visión es lograr el crecimiento de nuestra empresa, para poder adquirir más locales y así llegar a más personas. Todo eso mediante el respaldo de nuestros clientes.”
 Su organigrama está representado de la siguiente manera:
+
 ![diagramama](Organigrama.png)
 
 
 ## 1.	ESTUDIO DE FACTIBILIDAD
+El presente proyecto tiene como objetivo implementar un sistema de inventario para la empresa Nabu Tecnologies que permita reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, tener una mejor optimización del proceso de venta.
 
 ### 1.1.	Factibilidad operativa y técnica: La visión del sistema
 Nuestro sistema está programado para poder facilitar el registro y control de inventario al usuario, además de ser fácil de manejar, ayudará a evitar largas horas de sacar cuentas, siendo de costo gratuito solo se necesitará de una computadora con características básicas. 
     
 #### Organización
-- Se garantiza la elaboración y utilización del software, ya que será establecida en nuestra pequeña empresa, esta se realizará y utilizará en el campo.
-- 	Se contará con el apoyo de nuestro grupo para el diseño, mantenimiento y realización de este software.
+ - Se garantiza la elaboración y utilización del software, ya que será establecida en nuestra pequeña empresa, esta se realizará y utilizará en el campo.
+ - Se contará con el apoyo de nuestro grupo para el diseño, mantenimiento y realización de este software.
 #### Tecnica
-- Nosotros como grupo estaremos presentes en la realización y producción del software. 
-- 	Será un acceso directo al programa para almacenamiento de materiales.
-- 	Acceso a las entradas de producción.
-- 	Disponibilidad de personal para el mantenimiento.
-- 	Disponibilidad de la tecnología para satisfacer su necesidad.
+ - Nosotros como grupo estaremos presentes en la realización y producción del software. 
+ - Será un acceso directo al programa para almacenamiento de materiales.
+ - Acceso a las entradas de producción.
+ - Disponibilidad de personal para el mantenimiento.
+ - Disponibilidad de la tecnología para satisfacer su necesidad.
 
 ## 2.	MODELO DE NEGOCIO
 En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se destaca de las demás empresas en su rubro, gracias a su gran equipo de trabajo, gran producto y el trato que se le da a los clientes son todas estas características que la diferencia de la competencia.
+
+### Diagrama de Eriksson Penker 
 
 ![diagramama](penekr.png)
 ![diagrama](penekr2.png)
 
 ### 2.1Factibilidad operativa y técnica: La visión del sistema
-
+El Modelo de Casos de Uso del Negocio (MCUN) o vista externa incluye la lista de los actores de negocio y el diagrama de los casos de uso del negocio.
 ![dcu](adsgeneral.png)
 
 #### 2.1.1.	Lista de Actores de Negocio
 ACTOR|	Descripción
 ---|---
-Administrador|	    El administrador tiene acceso al sistema y tiene la gestión de procesos de la empresa.
-Vendedor |   	El vendedor se encarga de la venta de los productos y su gestión.
-Cliente |	El cliente realiza el pedido y la compra de producto.
-Proveedor|   	El proveedor proporciona los materiales necesarios para la producción de los productos.
-Beneficiario|     	El beneficiario es la entidad beneficiada a la cual se le donara.
+Cliente |	El cliente es quien realiza el pedido y la compra de producto.
+Proveedor| El proveedor es quien proporciona los productos que son vendidos por la empresa Nabu Technologies.
+Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará una cierta cantidad de dinero por los excedentes de compra.
 
 #### 2.1.2.	Lista de Casos de Uso del Negocio
-CASOS DE USO|	Descripción
+CASOS DE USO DE NEGOCIO |	Descripción
 ---|---
-Loggear|	El administrador y vendedor inician sesión.
-Registrar venta|	El vendedor anota la venta realizada.
-Registrar compra|	El administrador anota la compra realizada.
-Gestión de usuarios|	El administrador gestiona un usuario a los trabajadores de la empresa.
-Gestión de clientes|	El vendedor registra a los clientes. 
-Gestión de proveedores|	El administrador gestiona a los proveedores.
-Gestión de productos|	El administrador gestiona a los productos que luego serán consultados por el vendedor.
-Gestión de inventario|	El administrador registra la entrada y salida de los procesos de la empresa. 
-Registro de excesos|	El administrador registra los excedentes de los productos que tiene la empresa que luego serán llevados a un centro de beneficencia.
-Modificar cliente|	El administrador modifica los datos del cliente.
-Modificar producto|	El administrador modifica los datos del cliente.
-Modificar usuarios|	El administrador modifica los datos del usuario.
+Administrar usuario|	El administrador puede ingresar, modificar y consultar un usuario.
+Administrar cliente|	El administrador y vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
+Administrar proveedor|	El administrador puede ingresar, modificar y consultar un proveedor.
+Administrar producto|	El administrador y vendedor pueden ingresar, modificar, consultar y stock un producto.
+Realizar compra|	El administrador y vendedor pueden ingresar y consultar las compras.
+Realizar venta|	El administrador y vendedor pueden ingresar y consultar las ventas.
+Administrar stock|	El administrador y vendedor pueden consultar el registro de ingresos y salidas de producto.
+Administrar inventario|	El administrado puede ingresar y consultar el registro de ingresos y salidas de dinero.
+
 #### 2.1.3 DIAGRAMA DE CASOS DE USO
 ![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
 ![DIAGRAMA DE CASOS DE USO ACTOR ADMINISTRADOR](CADM.png)
