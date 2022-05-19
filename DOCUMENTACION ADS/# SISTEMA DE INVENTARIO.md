@@ -264,21 +264,23 @@ RN05 | Regla 5 | Un usuario debe tener un usuario | Administrar usuario
 <La introducción del flujo de captura de requerimientos debe describir los alcances de éste capítulo>
 
 ### 3.1. Fuentes de obtención de requerimientos
-<Se mencionan las diferentes fuentes de captación de los requerimientos del sistema. Se incluye informe de entrevistas o material técnico>
+Se mencionan las diferentes fuentes de captación de los requerimientos del sistema. Se incluye informe de entrevistas o material técnico
 
 #### 3.1.1. Informe de entrevistas o material técnico
-<En este acápite se presenta un recuento de los requerimientos y reglas de negocio obtenidas como producto de las entrevistas al usuario o de una investigación bibliográfica. Se puede utilizar la plantilla.>
+En este acápite se presenta un recuento de los requerimientos y reglas de negocio obtenidas como producto de las entrevistas al usuario o de una investigación bibliográfica. Se puede utilizar la plantilla.
 INFORME - Ver Anexo No. 4
 
 #### 3.1.2. Matriz de Actividades y Requerimiento
 <Para la matriz de actividades y requerimientos utilizar el formato:>
 MATRIZ ACT. VS REQ. - Ver Anexo No. 5
-
-3.2. Modelo Casos de Uso
+ 
+### 3.2. Modelo Casos de Uso
 <Aquí se muestran todos los artefactos que participan en el Modelo de casos de Uso del sistema>
 
-3.2.1 Lista de Actores del Sistema
+#### 3.2.1 Lista de Actores del Sistema
 <Para la lista de Actores del sistema (AS) utilizar el siguiente cuadro:>
 Nombre|	Descripción
 ---|---
+
+
  
