@@ -66,8 +66,8 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 
 ### Diagrama de Eriksson Penker 
 
-![diagramama](ERICKSON_P1.png)
-![diagrama](penekr2.png)
+![diagrama](ERICKSON_P1.png)
+![diagrama](ERICKSON_P2.png)
 
 ### 2.1. Factibilidad operativa y técnica: La visión del sistema
 El Modelo de Casos de Uso del Negocio (MCUN) o vista externa incluye la lista de los actores de negocio y el diagrama de los casos de uso del negocio.
