@@ -282,5 +282,16 @@ MATRIZ ACT. VS REQ. - Ver Anexo No. 5
 Nombre|	Descripción
 ---|---
 
+#### 3.2.2. Lista de Casos de Uso del Sistema
+<Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
+Nombre|	Descripción
+---|---
+ 
+#### 3.2.3. Lista de Casos de Uso priorizados
+<Para la lista de casos de uso priorizados utilizar el siguiente formato:>
+
+Priorización de Casos de Uso del sistema
+---|---|---|---|---|---|---
+Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 
  
