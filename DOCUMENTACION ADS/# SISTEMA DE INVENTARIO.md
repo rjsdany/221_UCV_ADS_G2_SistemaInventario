@@ -233,8 +233,7 @@ Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del n
 ### 2.3. Glosario de términos
 Para el glosario de términos se coloco en la siguiente tabla:
 
-|GLOSARIO DE TÉRMINOS|
-|Nombre|	Descripción|
+Nombre|	Descripción
 ---|---
 ADM | Administrador
 AN | Actor del negocio
@@ -248,6 +247,12 @@ EN | Entidades de negocio
 MCUN | Modelo de casos de uso del negocio
 PRO | Proveedor
 RCUN | Realización de casos de uso del negocio
+RN | Regla de negocio
 TN | Trabajador del negocio
 VEN | Vendedor
 
+### 2.4. Reglas de negocio
+Código |	Nombre | Descripción | Casos de uso afectado
+---|---|---|---
+RN01 | Regla 1 | El usuario solo puede tener un registro | Administrar usuario
+RN02 | Regla 2 | Un producto x solo puede tener un registro | Administrar producto
