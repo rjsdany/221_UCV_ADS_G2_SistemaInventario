@@ -43,6 +43,7 @@ Esta empresa tiene como misión querer seguir brindando nuestros servicios adecu
 Su organigrama está representado de la siguiente manera:
 
 ![diagramama](Organigrama.png)
+Figura 1. Organigrama de Nabu Technologies
 
 
 ## 1.	ESTUDIO DE FACTIBILIDAD
@@ -67,10 +68,13 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 ### Diagrama de Eriksson Penker 
 
 ![diagrama](ERICKSON_P1.png)
+Figura 2. Diagrama de Eriksson Penker 1
 ![diagrama](ERICKSON_P2.png)
+Figura 3. Diagrama de Eriksson Penker 2
 
 ### 2.1. Factibilidad operativa y técnica: La visión del sistema
 El Modelo de Casos de Uso del Negocio (MCUN) o vista externa incluye la lista de los actores de negocio y el diagrama de los casos de uso del negocio.
+
 ![dcu](adsgeneral.png)
 
 #### 2.1.1.	Lista de Actores de Negocio
@@ -92,7 +96,7 @@ Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las v
 Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
 Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
 
-#### 2.1.3 DIAGRAMA DE CASOS DE USO
+#### 2.1.3. DIAGRAMA DE CASOS DE USO
 ![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
 ![DIAGRAMA DE CASOS DE USO ACTOR ADMINISTRADOR](CADM.png)
 ![DIAGRAMA DE CASOS DE USO ACRTOR CLIENTE](CCL.png)
@@ -217,3 +221,6 @@ Registro de cliente	   |Documento donde se encuentran los datos del clientes|	I|
 
 ### DIAGRAMA DE CLASES
 ![DIAGRAMA DE CLASES](DC.png)
+
+#### 2.2.3. Realización de Casos de Uso del Negocio
+Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
