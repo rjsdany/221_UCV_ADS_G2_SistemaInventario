@@ -71,6 +71,7 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 ![diagrama](ERICKSON_P1.png)
   
   *Figura 2. Diagrama de Eriksson Penker 1*
+  
 ![diagrama](ERICKSON_P2.png)
   
   *Figura 3. Diagrama de Eriksson Penker 2*
