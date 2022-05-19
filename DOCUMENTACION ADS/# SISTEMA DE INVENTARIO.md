@@ -43,6 +43,7 @@ Esta empresa tiene como misión querer seguir brindando nuestros servicios adecu
 Su organigrama está representado de la siguiente manera:
 
 ![diagramama](Organigrama.png)
+  
   *Figura 1. Organigrama de Nabu Technologies*
 
 
@@ -68,8 +69,10 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 ### Diagrama de Eriksson Penker 
 
 ![diagrama](ERICKSON_P1.png)
+  
   *Figura 2. Diagrama de Eriksson Penker 1*
 ![diagrama](ERICKSON_P2.png)
+  
   *Figura 3. Diagrama de Eriksson Penker 2*
 
 ### 2.1. Factibilidad operativa y técnica: La visión del sistema
