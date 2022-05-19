@@ -291,7 +291,25 @@ Nombre|	Descripción
 <Para la lista de casos de uso priorizados utilizar el siguiente formato:>
 
 Priorización de Casos de Uso del sistema
----|---|---|---|---|---|---
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
-
+---|---|---|---|---|---|---
  
+#### 3.2.4. Diagramas de Caso de Uso del Sistema
+<Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize>
+
+#### 3.2.5. Especificaciones de Requerimientos de Software
+<Explica las Especificaciones de Requerimientos de Software (SRS) enfocadas a su proyecto. Utilizar el formato de Rational Requisite Pro correctamente>
+ 
+#### 3.2.6. Especificaciones de Casos de Uso
+<En este párrafo se describen a alto nivel y al detalle (ECUS) cada uno de los casos de uso de nuestro sistema. Para cada caso de uso se efectuará:>
+<Nombre del caso de uso 1 a n>
+Especificación de alto nivel
+<Para esta especificación utilizar la plantilla siguiente:>
+ 
+## CONCLUSIONES
+<Deben incluirse como conclusiones los aspectos aprendidos, aplicados y trascendentes del proyecto, se va actualizando según los avances de proyecto>
+
+ ## ANEXOS
+<Deben incluirse como anexos las entrevistas efectuadas a los clientes del sistema y todos los documentos RUP que siguen una numeración de página propia, hojas Excel, etc.>
+
+
