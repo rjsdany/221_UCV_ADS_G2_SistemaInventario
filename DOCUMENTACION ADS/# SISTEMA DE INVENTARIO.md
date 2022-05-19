@@ -234,7 +234,7 @@ Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del n
 Para el glosario de términos se coloco en la siguiente tabla:
 
 |GLOSARIO DE TÉRMINOS|
-Nombre|	Descripción
+|Nombre|	Descripción|
 ---|---
 ADM | Administrador
 AN | Actor del negocio
