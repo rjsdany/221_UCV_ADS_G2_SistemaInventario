@@ -66,7 +66,7 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 
 ### Diagrama de Eriksson Penker 
 
-![diagramama](EP1.png)
+![diagramama](ERICKSON_P1.png)
 ![diagrama](penekr2.png)
 
 ### 2.1. Factibilidad operativa y técnica: La visión del sistema
