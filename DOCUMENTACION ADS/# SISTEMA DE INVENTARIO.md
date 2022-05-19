@@ -46,7 +46,7 @@ Su organigrama está representado de la siguiente manera:
 
 
 ## 1.	ESTUDIO DE FACTIBILIDAD
-El presente proyecto tiene como objetivo implementar un sistema de inventario para la empresa Nabu Tecnologies que permita reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, tener una mejor optimización del proceso de venta.
+El presente proyecto tiene como objetivo medir la factibilidad que tiene la empresa Nabu Technologies, implementando un sistema de inventario que permita reducir los excedentes de servicios, aumentar el ingreso en la empresa, practicar las políticas medioambientales, tener una mejor optimización del proceso de venta.
 
 ### 1.1.	Factibilidad operativa y técnica: La visión del sistema
 Nuestro sistema está programado para poder facilitar el registro y control de inventario al usuario, además de ser fácil de manejar, ayudará a evitar largas horas de sacar cuentas, siendo de costo gratuito solo se necesitará de una computadora con características básicas. 
