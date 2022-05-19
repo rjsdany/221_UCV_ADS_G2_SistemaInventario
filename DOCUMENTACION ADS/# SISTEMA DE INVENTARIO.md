@@ -229,3 +229,14 @@ Registro de cliente	   |Documento donde se encuentran los datos del clientes|	I|
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
 Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
+
+### 2.3. Glosario de términos
+Para el glosario de términos se coloco en la siguiente tabla:
+
+GLOSARIO DE TÉRMINOS
+---
+Nombre|	Descripción
+---|---
+|	
+|	
+|	
