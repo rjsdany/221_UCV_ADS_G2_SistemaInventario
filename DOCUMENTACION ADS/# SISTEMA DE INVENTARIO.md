@@ -306,6 +306,16 @@ Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 Especificación de alto nivel
 <Para esta especificación utilizar la plantilla siguiente:>
  
+### 3.3. Prototipo de principales interfaces
+ 
+### 3.4. Diagrama de clases de diseño
+ 
+### 3.5. Diagrama de paquetes
+
+### 3.6. Diagrama de secuencia
+
+### 3.7. Diagrama de estado
+ 
 ## CONCLUSIONES
 <Deben incluirse como conclusiones los aspectos aprendidos, aplicados y trascendentes del proyecto, se va actualizando según los avances de proyecto>
 
