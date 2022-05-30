@@ -224,7 +224,7 @@ LISTA DE ENTIDADES DE NEGOCIO|	Descripción	|Origen|	Tipo
 Registro de usuario	|Documento donde se encuentran los datos de los usuarios |	I	|F
 Registro de cliente	   |Documento donde se encuentran los datos del clientes|	I|	F
 
-### DIAGRAMA DE CLASES
+### Diagrama de clases
 ![DIAGRAMA DE CLASES](DC.png)
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
