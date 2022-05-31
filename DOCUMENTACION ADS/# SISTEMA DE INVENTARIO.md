@@ -221,10 +221,13 @@ Tipo: P=Persistente, que almacena datos, F=Formulario o documento impreso>
 
 LISTA DE ENTIDADES DE NEGOCIO|	Descripción	|Origen|	Tipo
 ---|---|---|---
-Registro de usuario |Documento donde se encuentran los datos de los usuarios |	I	| F
-Registro de cliente	|Documento donde se encuentran los datos de los clientes|	I|	F
-Registro de proveedores	|Documento donde se encuentran los datos y características de los proveedores|	I|	F
-Registro de productos	|Documento donde se encuentran los detalles de los productos|	I|	F
+Registro de usuario |Documento donde se encuentran los datos de los usuarios |	I	| P
+Registro de cliente	|Documento donde se encuentran los datos de los clientes|	I|	P
+Registro de proveedores	|Documento donde se encuentran los datos y características de los proveedores|	I|	P
+Registro de productos	|Documento donde se encuentran los detalles de los productos|	I|	P
+Comprobante de pago	|Documento que acreditan la realización de un pago|	E|	F
+Reporte de ventas	|Documento donde se encuentran las ventas realizadas por el negocio y sus detalles|	I|	P
+Reporte de compras	|Documento donde se encuentran las compras realizadas por el negocio y sus detalles|	I|	P
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
 Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
