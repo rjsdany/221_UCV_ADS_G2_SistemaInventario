@@ -92,10 +92,10 @@ Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará
 #### 2.1.2.	Lista de Casos de Uso del Negocio
 CASOS DE USO DE NEGOCIO |	Descripción
 ---|---
-Administrar usuario|	El administrador puede ingresar, modificar y consultar un usuario.
+Administrar usuario|	El administrador puede ingresar, modificar, eliminar y consultar un usuario.
 Administrar cliente|	El administrador y el vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
-Administrar proveedor|	El administrador puede ingresar, modificar y consultar un proveedor.
-Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, consultar y stock un producto.
+Administrar proveedor|	El administrador puede ingresar, modificar, eliminar y consultar un proveedor.
+Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, eliminar, consultar y stock un producto.
 Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
 Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
 Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
@@ -221,8 +221,10 @@ Tipo: P=Persistente, que almacena datos, F=Formulario o documento impreso>
 
 LISTA DE ENTIDADES DE NEGOCIO|	Descripción	|Origen|	Tipo
 ---|---|---|---
-Registro de usuario	|Documento donde se encuentran los datos de los usuarios |	I	|F
-Registro de cliente	   |Documento donde se encuentran los datos del clientes|	I|	F
+Registro de usuario |Documento donde se encuentran los datos de los usuarios |	I	| F
+Registro de cliente	|Documento donde se encuentran los datos de los clientes|	I|	F
+Registro de proveedores	|Documento donde se encuentran los datos y características de los proveedores|	I|	F
+Registro de productos	|Documento donde se encuentran los detalles de los productos|	I|	F
 
 ### Diagrama de clases
 ![DIAGRAMA DE CLASES](DiagramaClasesG2.png)
