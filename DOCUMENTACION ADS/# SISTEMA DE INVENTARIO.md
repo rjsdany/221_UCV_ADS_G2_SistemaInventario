@@ -225,7 +225,7 @@ Registro de usuario	|Documento donde se encuentran los datos de los usuarios |	I
 Registro de cliente	   |Documento donde se encuentran los datos del clientes|	I|	F
 
 ### Diagrama de clases
-![DIAGRAMA DE CLASES](DC.png)
+![DIAGRAMA DE CLASES](DiagramaClasesG2.png)
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
 Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
