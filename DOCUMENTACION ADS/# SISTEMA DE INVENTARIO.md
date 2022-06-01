@@ -293,6 +293,8 @@ El cliente solicita un pedido al vendedor, el vendedor recibe y registra los dat
 #### 3.1.2. Matriz de Actividades y Requerimiento
 Para la matriz de actividades y requerimientos se utilizó el siguiente formato:
 ![MATRIZ DE REQUERIMIENTOS](MATRIZG2.png)
+
+*Figura 10. Matriz de Actividades y Requerimiento*
  
 ### 3.2. Modelo Casos de Uso
 #### 3.2.1 Lista de Actores del Sistema
@@ -350,8 +352,8 @@ Proveedor |Entrega de productos|	0| 5| 5| 0|1.67
 #### 3.2.4. Diagramas de Casos de Uso del Sistema
 Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize
 ![diagramamaCUS](DCUS_G2.png)
- 
-*Figura 10. Diagrama de Casos de Uso del Sistema*
+
+*Figura 11. Diagrama de Casos de Uso del Sistema*
 
 #### 3.2.5. Especificaciones de Requerimientos de Software
 La presente Especificación de requerimientos de software (SRS) del sistema a construir surge para ser un conjunto de información necesaria que ayuda a los desarrolladores del software a analizar y entender todos los requisitos y requerimientos que nuestro cliente desea , de la misma forma como este constituye un informe útil para que el cliente del producto final describa lo que él realmente desea obtener, y de esta manera lograr tener un documento necesario cuya información en el futuro servirá para el desarrollo del software, es decir en la codificación correcta del mismo. Se describe en forma detallada las interfaces de usuario, de software, del hardware y comunicaciones, así como de los requerimientos del cliente, atributos del sistema entre otros.
@@ -577,7 +579,13 @@ Post condiciones|
 *Tabla No. 31. CUS13 Entrega de productos*
  
 ### 3.3. Prototipo de principales interfaces
+![LOGIN](LOGIN_G2.png)
 
+*Figura 12. Prototipo de principales interfaces*
+
+![PROG](PROG_G2.png)
+
+*Figura 13. Prototipo de principales interfaces*
  
 ### 3.4. Diagrama de clases de diseño
  
