@@ -90,16 +90,16 @@ Proveedor| El proveedor es quien proporciona los productos que son vendidos por 
 Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará una cierta cantidad de dinero por los excedentes de compra.
 
 #### 2.1.2.	Lista de Casos de Uso del Negocio
-CASOS DE USO DE NEGOCIO |	Descripción
----|---
-Administrar usuario|	El administrador puede ingresar, modificar, eliminar y consultar un usuario.
-Administrar cliente|	El administrador y el vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
-Administrar proveedor|	El administrador puede ingresar, modificar, eliminar y consultar un proveedor.
-Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, eliminar, consultar y stock un producto.
-Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
-Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
-Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
-Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
+Código |CASOS DE USO DE NEGOCIO |	Descripción
+---|---|---
+CUN01 |Administrar usuario|	El administrador puede ingresar, modificar, eliminar y consultar un usuario.
+CUN02 |Administrar cliente|	El administrador y el vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
+CUN03 |Administrar proveedor|	El administrador puede ingresar, modificar, eliminar y consultar un proveedor.
+CUN04 |Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, eliminar, consultar y stock un producto.
+CUN05 |Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
+CUN06 |Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
+CUN07 |Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
+CUN08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
 
 #### 2.1.3. DIAGRAMA DE CASOS DE USO
 ![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
@@ -219,15 +219,15 @@ Para la lista de las entidades de negocio (EN) utilizar el siguiente cuadro, don
 Origen: I=Interna, generada por el propio negocio, E=Externa, generada externamente y usada por el negocio como dato o medio de comunicación; 
 Tipo: P=Persistente, que almacena datos, F=Formulario o documento impreso>
 
-LISTA DE ENTIDADES DE NEGOCIO|	Descripción	|Origen|	Tipo
----|---|---|---
-Registro de usuario |Documento donde se encuentran los datos de los usuarios |	I	| P
-Registro de cliente	|Documento donde se encuentran los datos de los clientes|	I|	P
-Registro de proveedores	|Documento donde se encuentran los datos y características de los proveedores|	I|	P
-Registro de productos	|Documento donde se encuentran los detalles de los productos|	I|	P
-Comprobante de pago	|Documento que acreditan la realización de un pago|	E|	F
-Reporte de ventas	|Documento donde se encuentran las ventas realizadas por el negocio y sus detalles|	I|	P
-Reporte de compras	|Documento donde se encuentran las compras realizadas por el negocio y sus detalles|	I|	P
+Código |LISTA DE ENTIDADES DE NEGOCIO|	Descripción	|Origen|	Tipo
+---|---|---|---|---
+EN01 |Registro de usuario |Documento donde se encuentran los datos de los usuarios |	I	| P
+EN02 |Registro de cliente	|Documento donde se encuentran los datos de los clientes|	I|	P
+EN03 |Registro de proveedores	|Documento donde se encuentran los datos y características de los proveedores|	I|	P
+EN04 |Registro de productos	|Documento donde se encuentran los detalles de los productos|	I|	P
+EN05 |Comprobante de pago	|Documento que acreditan la realización de un pago|	E|	F
+EN06 |Reporte de ventas	|Documento donde se encuentran las ventas realizadas por el negocio y sus detalles|	I|	P
+EN07 |Reporte de compras	|Documento donde se encuentran las compras realizadas por el negocio y sus detalles|	I|	P
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
 Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
