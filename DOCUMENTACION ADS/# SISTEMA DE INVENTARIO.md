@@ -277,16 +277,22 @@ RN05 | Regla 5 | Un usuario debe tener un usuario | Administrar usuario
 Se tiene como objetivo descubrir y recoger todos y cada uno de los requisitos funcionales y no funcionales a definir de forma clara y concisa para el correcto desarrollo del sistema de inventario.
 
 ### 3.1. Fuentes de obtención de requerimientos
-Se mencionan las diferentes fuentes de captación de los requerimientos del sistema. Se incluye informe de entrevistas o material técnico
-
+Para la obtención de requerimientos en la empresa Nabu Technologies, se realizo mediante entrevistas con el personal.
 #### 3.1.1. Informe de entrevistas o material técnico
-En este acápite se presenta un recuento de los requerimientos y reglas de negocio obtenidas como producto de las entrevistas al usuario o de una investigación bibliográfica. Se puede utilizar la plantilla.
-INFORME - Ver Anexo No. 4
+**Informe de Entrevistas**
+Análisis de las entrevistas:
+¿Cómo se sienten los trabajadores laborando en Nabu Technologies?
+Más del 95% de los entrevistados respondieron satisfactoriamente mostrando tranquilidad por su puesto de trabajo. De igual forma están conforme con las horas laborales, su salario laboral y los que beneficios que reciben.
+¿Cuáles son los puestos en los que trabajan?	
+En la empresa existen diversos puestos el cual se dividen en dos: Administradores y Vendedores. Los primeros administran los usuarios, también a los clientes, los proveedores, los productos y el inventario. Los segundos realizan la venta de los productos y la compra de la materia prima. 
+¿Cuáles son los trabajos que realizas en Nabu Technologies?
+Con esta pregunta se pretende mejorar los procesos de trabajo para una mejora en la producción:
+El cliente solicita un pedido al vendedor, el vendedor recibe y registra los datos del cliente, una vez ingresado los datos guarda los cambios, luego el sistema almacena en la base de datos, y el vendedor procede a realizar la venta del producto. El administrador de usuario tiene la opción de ingresar, modificar o eliminar el usuario. El administrador de proveedor puede crear, modificar y consultar. El administrador del producto puede ingresar, modificar, eliminar, consultar y el stock. El administrador de stock puede consultar el registro de ingreso y salida de los productos. El administrador de inventario puede ingresar y consultar el ingreso y salida de dinero. El vendedor atiende las compras donde ingresa y consulta los datos. El vendedor atiende las ventas las ingresa y consulta.
+
 
 #### 3.1.2. Matriz de Actividades y Requerimiento
-<Para la matriz de actividades y requerimientos utilizar el formato:>
-MATRIZ ACT. VS REQ. - Ver Anexo No. 5
-*Tabla No. 15. *
+Para la matriz de actividades y requerimientos se utilizó el siguiente formato:
+![MATRIZ DE REQUERIMIENTOS](MATRIZG2.png)
  
 ### 3.2. Modelo Casos de Uso
 #### 3.2.1 Lista de Actores del Sistema
