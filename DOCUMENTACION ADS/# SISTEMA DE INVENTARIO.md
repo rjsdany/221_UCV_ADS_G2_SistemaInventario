@@ -326,19 +326,19 @@ CUS13 |Entrega de productos|	El administrador puede ingresar y consultar el regi
 Para la lista de casos de uso priorizados se utilizó el siguiente formato:
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
- |Solicitar pedido|	| | | |
- |Consultar pedido|	| | | |
- |Registrar pedido|	| | | |
- |Reportar venta|	| | | |
- |Registrar producto|	| | | |
- |Emitir comprobante de venta|	| | | |
- |Efectuar pago|	| | | |
- |Verificar stock|	| | | |
- |Eliminar producto|	| | | |
- |Actualizar producto|	| | | |
- |Controlar inventario|	| | | |
- |Solicitar producto a proveedor|	| | | |
- |Entrega de productos|	| | | |
+Cliente |Solicitar pedido|	| | | |
+Vendedor |Consultar pedido|	| | | |
+Vendedor |Registrar pedido|	| | | |
+Vendedor |Reportar venta|	| | | |
+Vendedor |Registrar producto|	| | | |
+Vendedor |Emitir comprobante de venta|	| | | |
+Cliente |Efectuar pago|	| | | |
+Vendedor |Verificar stock|	| | | |
+Administrador |Eliminar producto|	| | | |
+Administrador |Actualizar producto|	| | | |
+Administrador |Controlar inventario|	| | | |
+Administrador |Solicitar producto a proveedor|	| | | |
+Proveedor |Entrega de productos|	| | | |
   
 *Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
