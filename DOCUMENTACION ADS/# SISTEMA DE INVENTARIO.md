@@ -306,20 +306,27 @@ Administrador| Realiza la adquisisión de productos al proveedor
 <Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
 Nombre|	Descripción
 ---|---
+CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos.
+CUS02 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
+CUS03 |Realizar venta|	El vendedor pueden ingresar y consultar las ventas.
+CUS04 |Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
+CUS05 |Generar reporte|	El vendedor puede generar un reporte de las ventas realizadas.
+CUS06 |Registrar cliente|	El vendedor pueden ingresar y consultar los clientes.
+CUS07 |Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
+CUS08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
  
 *Tabla No. 17. Lista de Casos de Uso del Sistema*
  
 #### 3.2.3. Lista de Casos de Uso priorizados
-<Para la lista de casos de uso priorizados utilizar el siguiente formato:>
-
-Priorización de Casos de Uso del sistema
+Para la lista de casos de uso priorizados se utilizó el siguiente formato:
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
+ 
  
 *Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
 #### 3.2.4. Diagramas de Caso de Uso del Sistema
-<Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize>
+Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize
 
 #### 3.2.5. Especificaciones de Requerimientos de Software
 <Explica las Especificaciones de Requerimientos de Software (SRS) enfocadas a su proyecto. Utilizar el formato de Rational Requisite Pro correctamente>
