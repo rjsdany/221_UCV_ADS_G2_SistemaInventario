@@ -5,7 +5,7 @@
 ## ASESOR: RICHARD LEONARDO BERROCAL NAVARRO 
 ### ORCID: 0000-0001-8718-3150
 
-INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO 
+INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO
 ---|---|---
 Damazo Valdeos, David Jared| 0000-0002-4823-7379| 100%
 Esteban Lastaunado, Dibail Sidane| 0000-0002-3473-338X| 100%
@@ -301,7 +301,7 @@ Administrador| Realiza la adquisisión de productos al proveedor
 *Tabla No. 16. Lista de Actores del Sistema*
 
 #### 3.2.2. Lista de Casos de Uso del Sistema
-<Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
+Para la lista de Casos de Uso del sistema (CUS) se utilizó el siguiente cuadro:
 Código| Nombre|	Descripción
 ---|---|---
 CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos
@@ -362,10 +362,187 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
 
  
 #### 3.2.6. Especificaciones de Casos de Uso
-<En este párrafo se describen a alto nivel y al detalle (ECUS) cada uno de los casos de uso de nuestro sistema. Para cada caso de uso se efectuará:>
-<Nombre del caso de uso 1 a n>
-Especificación de alto nivel
-<Para esta especificación utilizar la plantilla siguiente:>
+CUS01|	Solicitar pedido
+---|---
+Tipo|	
+Autor|	Cliente
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 19. CUS01 Solicitar pedido*
+ 
+CUS02|	Consultar pedido
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 20. CUS02 Consultar pedido*
+ 
+CUS03|	Registrar pedido
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 21. CUS03 Registrar pedido*
+ 
+CUS04|	Reportar venta
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 22. CUS04 Reportar venta*
+
+CUS05|	Registrar producto
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 23. CUS05 Registrar producto*
+ 
+CUS06|	Emitir comprobante de venta
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 24. CUS06 Emitir comprobante de venta*
+ 
+CUS07|	Efectuar pago
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 25. CUS07 Efectuar pago*
+ 
+CUS08|	Verificar stock
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 26. CUS08 Verificar stock*
+ 
+CUS09|	Eliminar producto
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 27. CUS09 Eliminar producto*
+ 
+CUS10|	Actualizar producto
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 28. CUS10 Actualizar producto*
+
+CUS11|	Controlar inventario
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 29. CUS11 Controlar inventario*
+ 
+CUS12|	Solicitar producto a proveedor
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 30. CUS12 Solicitar producto a proveedor*
+
+CUS13|	Entrega de productos
+---|---
+Tipo|	
+Autor|	
+Actores|	
+Iteración|	
+Casos de uso relacionados |	
+Breve Descripción|	
+Referencias|	
+Pre condiciones|	
+Post condiciones|	
+
+*Tabla No. 31. CUS13 Entrega de productos*
  
 ### 3.3. Prototipo de principales interfaces
  
