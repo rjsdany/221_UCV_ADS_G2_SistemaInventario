@@ -88,6 +88,7 @@ ACTOR|	Descripción
 Cliente |	El cliente es quien realiza el pedido y la compra de producto.
 Proveedor| El proveedor es quien proporciona los productos que son vendidos por la empresa Nabu Technologies.
 Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará una cierta cantidad de dinero por los excedentes de compra.
+*Tabla No. 1. Lista de Actores del Negocio*
 
 #### 2.1.2.	Lista de Casos de Uso del Negocio
 Código |CASOS DE USO DE NEGOCIO |	Descripción
@@ -100,6 +101,7 @@ CUN05 |Realizar compra|	El administrador y el vendedor pueden ingresar y consult
 CUN06 |Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
 CUN07 |Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
 CUN08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
+*Tabla No. 2. Lista de Casos de Uso del Negocio*
 
 #### 2.1.3. DIAGRAMA DE CASOS DE USO
 ![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
