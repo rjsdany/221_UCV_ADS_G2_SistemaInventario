@@ -194,7 +194,6 @@ Mejoras |	Mediante la implementación del sistema, el administrador podrá tener
 
 ### 2.2.	Modelado de análisis de negocios
 #### 2.2.1.	Lista de Trabajadores de Negocio
-Lista de trabajadores de negocio
 Nombre|	Descripción
 ---|---
 Administrador|	El administrador tiene acceso al sistema y tiene la gestión de procesos de la empresa.
