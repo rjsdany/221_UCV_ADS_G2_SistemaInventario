@@ -274,7 +274,7 @@ RN05 | Regla 5 | Un usuario debe tener un usuario | Administrar usuario
 *Tabla No. 14. Reglas de negocio*
 
 ## 3. CAPTURAS DE REQUERIMIENTOS
-<La introducción del flujo de captura de requerimientos debe describir los alcances de éste capítulo>
+Se tiene como objetivo descubrir y recoger todos y cada uno de los requisitos funcionales y no funcionales a definir de forma clara y concisa para el correcto desarrollo del sistema de inventario.
 
 ### 3.1. Fuentes de obtención de requerimientos
 Se mencionan las diferentes fuentes de captación de los requerimientos del sistema. Se incluye informe de entrevistas o material técnico
@@ -289,8 +289,6 @@ MATRIZ ACT. VS REQ. - Ver Anexo No. 5
 *Tabla No. 15. *
  
 ### 3.2. Modelo Casos de Uso
-<Aquí se muestran todos los artefactos que participan en el Modelo de casos de Uso del sistema>
-
 #### 3.2.1 Lista de Actores del Sistema
 Para la lista de Actores del sistema (AS) se utilizó el siguiente cuadro:
 Nombre|	Descripción
@@ -306,19 +304,19 @@ Administrador| Realiza la adquisisión de productos al proveedor
 <Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
 Código| Nombre|	Descripción
 ---|---|---
-CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos.
-CUS02 |Consultar pedido|	El vendedor recibe y consulta el pedido del producto.
-CUS03 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
-CUS04 |Reportar venta|	El vendedor pueden ingresar y consultar las ventas.
-CUS05 |Registrar producto|	El administrador y el vendedor pueden ingresar y consultar las compras.
-CUS06 |Emitir comprobante de venta|	El vendedor puede generar un reporte de las ventas realizadas.
-CUS07 |Efectuar pago|	El vendedor pueden ingresar y consultar los clientes.
+CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos
+CUS02 |Consultar pedido|	El vendedor recibe y consulta el pedido del producto
+CUS03 |Registrar pedido|	El vendedor registra el pedido en el sistema
+CUS04 |Reportar venta|	El vendedor reporta la venta en el sistema
+CUS05 |Registrar producto|	El vendedor registra la salida del producto
+CUS06 |Emitir comprobante de venta|	El vendedor emite el comprobante de venta que será entregado al cliente
+CUS07 |Efectuar pago|	El cliente se asegura de efectuar el pago, antes de recibir el producto
 CUS08 |Verificar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
-CUS09 |Eliminar producto|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
-CUS10 |Actualizar producto|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS09 |Eliminar producto|	El administrador puede eliminar productos.
+CUS10 |Actualizar producto|	El administrador puede actualizar productos.
 CUS11 |Controlar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
-CUS12 |Solicitar producto a proveedor|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
-CUS13 |Entrega de productos|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS12 |Solicitar producto a proveedor|	El administrador puede realizar pedidos de compra a proveedores.
+CUS13 |Entrega de productos|	El proveedor se asegura de entregar el pedido.
  
 *Tabla No. 17. Lista de Casos de Uso del Sistema*
  
