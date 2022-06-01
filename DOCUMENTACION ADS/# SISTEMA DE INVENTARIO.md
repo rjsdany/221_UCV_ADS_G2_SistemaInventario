@@ -307,13 +307,18 @@ Administrador| Realiza la adquisisión de productos al proveedor
 Nombre|	Descripción
 ---|---
 CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos.
-CUS02 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
-CUS03 |Realizar venta|	El vendedor pueden ingresar y consultar las ventas.
-CUS04 |Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
-CUS05 |Generar reporte|	El vendedor puede generar un reporte de las ventas realizadas.
-CUS06 |Registrar cliente|	El vendedor pueden ingresar y consultar los clientes.
-CUS07 |Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
-CUS08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS02 |Consultar pedido|	El cliente solicita pedido de algunos productos.
+CUS03 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
+CUS04 |Reportar venta|	El vendedor pueden ingresar y consultar las ventas.
+CUS05 |Registrar producto|	El administrador y el vendedor pueden ingresar y consultar las compras.
+CUS06 |Emitir comprobante de venta|	El vendedor puede generar un reporte de las ventas realizadas.
+CUS07 |Efectuar pago|	El vendedor pueden ingresar y consultar los clientes.
+CUS08 |Verificar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
+CUS09 |Eliminar producto|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS10 |Actualizar producto|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS11 |Controlar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS12 |Solicitar producto a proveedor|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
+CUS13 |Entrega de productos|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
  
 *Tabla No. 17. Lista de Casos de Uso del Sistema*
  
@@ -325,11 +330,24 @@ Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
  
 *Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
-#### 3.2.4. Diagramas de Caso de Uso del Sistema
+#### 3.2.4. Diagramas de Casos de Uso del Sistema
 Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize
+![diagramamaCUS](CUS_G2.png)
+*Figura 10. Diagrama de Casos de Uso del Sistema*
 
 #### 3.2.5. Especificaciones de Requerimientos de Software
-<Explica las Especificaciones de Requerimientos de Software (SRS) enfocadas a su proyecto. Utilizar el formato de Rational Requisite Pro correctamente>
+La presente Especificación de requerimientos de software (SRS) del sistema a construir surge para ser un conjunto de información necesaria que ayuda a los desarrolladores del software a analizar y entender todos los requisitos y requerimientos que nuestro cliente desea , de la misma forma como este constituye un informe útil para que el cliente del producto final describa lo que él realmente desea obtener, y de esta manera lograr tener un documento necesario cuya información en el futuro servirá para el desarrollo del software, es decir en la codificación correcta del mismo. Se describe en forma detallada las interfaces de usuario, de software, del hardware y comunicaciones, así como de los requerimientos del cliente, atributos del sistema entre otros.
+Propósito 
+-Permitir establecer las bases de acuerdo entre usuarios en lo que al proyecto de software se refiere. 
+-Ayudar a los usuarios finales del software a entender exactamente qué es lo que el cliente de software desea. 
+Alcance 
+-Identificación del producto de software “SISCOOP” 
+-Objetivos del Sistema 
+--Permitir la gestión de usuarios, clientes y socios
+--Apertura de libretas de ahorro 
+--Realizar créditos y depósitos ahorros 
+--Emitir informes cuando los usuarios o directivos lo necesiten (diarios, semanales, quincenales, etc.)
+
  
 #### 3.2.6. Especificaciones de Casos de Uso
 <En este párrafo se describen a alto nivel y al detalle (ECUS) cada uno de los casos de uso de nuestro sistema. Para cada caso de uso se efectuará:>
