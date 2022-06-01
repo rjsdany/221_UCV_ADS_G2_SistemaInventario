@@ -330,19 +330,20 @@ CUS13 |Entrega de productos|	El proveedor se asegura de entregar el pedido.
 Para la lista de casos de uso priorizados se utilizó el siguiente formato:
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
-Cliente |Solicitar pedido|	| | | |
-Vendedor |Consultar pedido|	| | | |
-Vendedor |Registrar pedido|	| | | |
-Vendedor |Reportar venta|	| | | |
-Vendedor |Registrar producto|	| | | |
-Vendedor |Emitir comprobante de venta|	| | | |
-Cliente |Efectuar pago|	| | | |
-Vendedor |Verificar stock|	| | | |
-Administrador |Eliminar producto|	| | | |
-Administrador |Actualizar producto|	| | | |
-Administrador |Controlar inventario|	| | | |
-Administrador |Solicitar producto a proveedor|	| | | |
-Proveedor |Entrega de productos|	| | | |
+---|---|0.4|0.3|0.2|0.1|1.5
+Cliente |Solicitar pedido|	0|5 |0|0 | 1.00
+Vendedor |Consultar pedido|	2| 5|3 |1 |2.00
+Vendedor |Registrar pedido|	3| 5| 5| 5|2.80
+Vendedor |Reportar venta|	3| 5| 5| 3|2.67
+Vendedor |Registrar producto|	3| 5| 5| 3|2.67
+Vendedor |Emitir comprobante de venta|	3| 5| 5| 0|2.47
+Cliente |Efectuar pago|	0| 5| 5| 0|1.67
+Vendedor |Verificar stock|	3| 5| 5| 2|2.60
+Administrador |Eliminar producto|	4| 0| 0|4 |1.33
+Administrador |Actualizar producto|	3| 0| 0| 3|1.00
+Administrador |Controlar inventario|	5| 5| 5| 3|3.20
+Administrador |Solicitar producto a proveedor|	3| 5| 5| 0|2.47
+Proveedor |Entrega de productos|	0| 5| 5| 0|1.67
   
 *Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
@@ -358,6 +359,7 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
 ##### Propósito 
  - Permitir establecer las bases de acuerdo entre usuarios en lo que al proyecto de software se refiere. 
  - Ayudar a los usuarios finales del software a entender exactamente qué es lo que el cliente de software desea. 
+ - 
 ##### Alcance 
  - Identificación del producto de software “SISCOOP” 
  - Objetivos del Sistema 
@@ -365,6 +367,18 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
    2. Apertura de libretas de ahorro 
    3. Realizar créditos y depósitos ahorros 
    4. Emitir informes cuando los usuarios o directivos lo necesiten (diarios, semanales, quincenales, etc.)
+  
+##### Requerimientos funcionales
+-	El sistema permitirá administrar el usuario y producto.
+-	El sistema permitirá registrar clientes.
+-	El sistema permitirá como parte de administrar realizar el ingreso, modificación, consulta y eliminación.
+-	El sistema permitirá realizar la venta de los productos y su respectivo registro.
+-	El sistema permitirá obtener el stock de los productos.
+-	El sistema permitirá consultar el inventario.
+-	El sistema permitirá realizar la compra de materia prima para la elaboración de los productos.
+-	El sistema permitirá ingresar datos y guardarlos.
+
+##### Requerimientos no funcionales
 
  
 #### 3.2.6. Especificaciones de Casos de Uso
