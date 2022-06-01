@@ -304,10 +304,10 @@ Administrador| Realiza la adquisisión de productos al proveedor
 
 #### 3.2.2. Lista de Casos de Uso del Sistema
 <Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
-Nombre|	Descripción
----|---
+Código| Nombre|	Descripción
+---|---|---
 CUS01 |Solicitar pedido|	El cliente solicita pedido de algunos productos.
-CUS02 |Consultar pedido|	El cliente solicita pedido de algunos productos.
+CUS02 |Consultar pedido|	El vendedor recibe y consulta el pedido del producto.
 CUS03 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
 CUS04 |Reportar venta|	El vendedor pueden ingresar y consultar las ventas.
 CUS05 |Registrar producto|	El administrador y el vendedor pueden ingresar y consultar las compras.
@@ -326,8 +326,20 @@ CUS13 |Entrega de productos|	El administrador puede ingresar y consultar el regi
 Para la lista de casos de uso priorizados se utilizó el siguiente formato:
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
- 
- 
+ |Solicitar pedido|	| | | |
+ |Consultar pedido|	| | | |
+ |Registrar pedido|	| | | |
+ |Reportar venta|	| | | |
+ |Registrar producto|	| | | |
+ |Emitir comprobante de venta|	| | | |
+ |Efectuar pago|	| | | |
+ |Verificar stock|	| | | |
+ |Eliminar producto|	| | | |
+ |Actualizar producto|	| | | |
+ |Controlar inventario|	| | | |
+ |Solicitar producto a proveedor|	| | | |
+ |Entrega de productos|	| | | |
+  
 *Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
 #### 3.2.4. Diagramas de Casos de Uso del Sistema
@@ -345,10 +357,10 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
 ##### Alcance 
  - Identificación del producto de software “SISCOOP” 
  - Objetivos del Sistema 
- -- Permitir la gestión de usuarios, clientes y socios
- -- Apertura de libretas de ahorro 
- -- Realizar créditos y depósitos ahorros 
- -- Emitir informes cuando los usuarios o directivos lo necesiten (diarios, semanales, quincenales, etc.)
+   1. Permitir la gestión de usuarios, clientes y socios
+   2. Apertura de libretas de ahorro 
+   3. Realizar créditos y depósitos ahorros 
+   4. Emitir informes cuando los usuarios o directivos lo necesiten (diarios, semanales, quincenales, etc.)
 
  
 #### 3.2.6. Especificaciones de Casos de Uso
