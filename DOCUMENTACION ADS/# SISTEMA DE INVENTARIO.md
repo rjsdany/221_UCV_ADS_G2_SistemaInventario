@@ -199,6 +199,8 @@ Nombre|	Descripción
 Administrador|	El administrador tiene acceso al sistema y tiene la gestión de procesos de la empresa.
 Vendedor|	El vendedor se encarga de la venta de los productos de manera eficiente y generar los reportes de ventas.
 
+*Tabla No. 11. Lista de Trabajadores de Negocio*
+
 #### 2.2.2.	Lista de Entidades de Negocio
 A diferencia de modelo de caso de negocio en el modelo de análisis pasamos a una vista   interna   del   proceso   de “Sistema de inventario”, pudiendo analizar los trabajadores de la empresa "Nabu Technologies" y además identificaremos las entidades que se manejan en nuestro proceso.
 Para la lista de las entidades de negocio (EN) utilizar el siguiente cuadro, donde:
@@ -215,6 +217,8 @@ EN05 |Comprobante de pago	|Documento que acreditan la realización de un pago|	E
 EN06 |Reporte de ventas	|Documento donde se encuentran las ventas realizadas por el negocio y sus detalles|	I|	P
 EN07 |Reporte de compras	|Documento donde se encuentran las compras realizadas por el negocio y sus detalles|	I|	P
 
+*Tabla No. 12. Lista de Entidades de Negocio*
+
 #### 2.2.3. Realización de Casos de Uso del Negocio
 Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.
 ![DIAGRAMA DE RCUN](RCUNG2.png)
@@ -226,12 +230,14 @@ Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del n
 *Figura 7. Diagrama de Realización Casos de Uso de Negocio*
 
 #### 2.2.4. Diagrama de actividades
+![diagramamaActividad](DAG2.png)
 
+*Figura 8. Diagrama de Actividades*
 
 #### 2.2.5. Realización de clases de dominio
 
 ![DIAGRAMA DE CLASES](DiagramaClasesG2.png)
-*Figura 4. Diagrama de Clases*
+*Figura 9. Diagrama de Clases*
 
 ### 2.3. Glosario de términos
 Para el glosario de términos se coloco en la siguiente tabla:
@@ -254,6 +260,8 @@ RN | Regla de negocio
 TN | Trabajador del negocio
 VEN | Vendedor
 
+*Tabla No. 13. Glosario de términos*
+
 ### 2.4. Reglas de negocio
 Código |	Nombre | Descripción | Casos de uso afectado
 ---|---|---|---
@@ -262,6 +270,8 @@ RN02 | Regla 2 | Un producto específico solo puede tener un registro | Administ
 RN03 | Regla 3 | Un cliente debe tener un registro | Administrar cliente
 RN04 | Regla 4 | Un proveedor debe tener un registro | Administrar proveedor
 RN05 | Regla 5 | Un usuario debe tener un usuario | Administrar usuario
+
+*Tabla No. 14. Reglas de negocio*
 
 ## 3. CAPTURAS DE REQUERIMIENTOS
 <La introducción del flujo de captura de requerimientos debe describir los alcances de éste capítulo>
@@ -276,19 +286,28 @@ INFORME - Ver Anexo No. 4
 #### 3.1.2. Matriz de Actividades y Requerimiento
 <Para la matriz de actividades y requerimientos utilizar el formato:>
 MATRIZ ACT. VS REQ. - Ver Anexo No. 5
+*Tabla No. 15. *
  
 ### 3.2. Modelo Casos de Uso
 <Aquí se muestran todos los artefactos que participan en el Modelo de casos de Uso del sistema>
 
 #### 3.2.1 Lista de Actores del Sistema
-<Para la lista de Actores del sistema (AS) utilizar el siguiente cuadro:>
+Para la lista de Actores del sistema (AS) se utilizó el siguiente cuadro:
 Nombre|	Descripción
 ---|---
+Cliente| Realiza el pedido
+Proveedor| Entrega los productos pedidos por el administrador
+Vendedor| Recibe el pedido pendiente, genera reporte de ventas
+Administrador| Realiza la adquisisión de productos al proveedor
+ 
+*Tabla No. 16. Lista de Actores del Sistema*
 
 #### 3.2.2. Lista de Casos de Uso del Sistema
 <Para la lista de Casos de Uso del sistema (CUS) utilizar el siguiente cuadro:>
 Nombre|	Descripción
 ---|---
+ 
+*Tabla No. 17. Lista de Casos de Uso del Sistema*
  
 #### 3.2.3. Lista de Casos de Uso priorizados
 <Para la lista de casos de uso priorizados utilizar el siguiente formato:>
@@ -296,6 +315,8 @@ Nombre|	Descripción
 Priorización de Casos de Uso del sistema
 Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
+ 
+*Tabla No. 18. Lista de Priorización de Casos de Uso del Sistema*
  
 #### 3.2.4. Diagramas de Caso de Uso del Sistema
 <Los diagramas de Casos de Uso deben estar estructurados de forma tal que se muestren las relaciones incluye, extend y generalize>
