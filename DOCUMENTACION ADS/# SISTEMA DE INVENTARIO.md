@@ -68,19 +68,21 @@ En la actualidad la empresa NABU TECHNOLOGY cuenta con 3 años en el mercado, se
 
 ### Diagrama de Eriksson Penker 
 
-![diagrama](ERICKSON_P1.png)
+![Diagrama de Erickson](ERICKSON_P1.png)
   
-*Figura 2. Diagrama de Eriksson Penker 1*
+*Figura 2. Diagrama de Eriksson Penker parte 1*
 
   
 ![diagrama](ERICKSON_P2.png)
   
-*Figura 3. Diagrama de Eriksson Penker 2*
+*Figura 3. Diagrama de Eriksson Penker parte 2*
 
 ### 2.1. Factibilidad operativa y técnica: La visión del sistema
 El Modelo de Casos de Uso del Negocio (MCUN) o vista externa incluye la lista de los actores de negocio y el diagrama de los casos de uso del negocio.
 
-![dcu](adsgeneral.png)
+![LISTA DE CASOS DE USO](ListaCUNG2.png)
+
+*Figura 4. Lista de Casos de Uso de Negocio*
 
 #### 2.1.1.	Lista de Actores de Negocio
 ACTOR|	Descripción
@@ -94,120 +96,101 @@ Beneficiario| El beneficiario es la entidad beneficiaria a la cual se le donará
 #### 2.1.2.	Lista de Casos de Uso del Negocio
 Código |CASOS DE USO DE NEGOCIO |	Descripción
 ---|---|---
-CUN01 |Administrar usuario|	El administrador puede ingresar, modificar, eliminar y consultar un usuario.
-CUN02 |Administrar cliente|	El administrador y el vendedor pueden ingresar, modificar, eliminar y consultar un cliente.
-CUN03 |Administrar proveedor|	El administrador puede ingresar, modificar, eliminar y consultar un proveedor.
-CUN04 |Administrar producto|	El administrador y el vendedor pueden ingresar, modificar, eliminar, consultar y stock un producto.
-CUN05 |Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
-CUN06 |Realizar venta|	El administrador y el vendedor pueden ingresar y consultar las ventas.
+CUN01 |Solicitar pedido|	El cliente solicita pedido de algunos productos.
+CUN02 |Registrar pedido|	El vendedor recibe el pedido pendiente del cliente.
+CUN03 |Realizar venta|	El vendedor pueden ingresar y consultar las ventas.
+CUN04 |Realizar compra|	El administrador y el vendedor pueden ingresar y consultar las compras.
+CUN05 |Generar reporte|	El vendedor puede generar un reporte de las ventas realizadas.
+CUN06 |Registrar cliente|	El vendedor pueden ingresar y consultar los clientes.
 CUN07 |Administrar stock|	El administrador y el vendedor pueden consultar el registro de ingresos y salidas de producto.
-CUN08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de dinero.
+CUN08 |Administrar inventario|	El administrador puede ingresar y consultar el registro de ingresos y salidas de ventas y compras.
 
 *Tabla No. 2. Lista de Casos de Uso del Negocio*
 
-#### 2.1.3. DIAGRAMA DE CASOS DE USO
-![DIAGRAMA DE CASOS DE USO ACTOR VENDEDOR](CV.png)
-![DIAGRAMA DE CASOS DE USO ACTOR ADMINISTRADOR](CADM.png)
-![DIAGRAMA DE CASOS DE USO ACRTOR CLIENTE](CCL.png)
-![DIAGRAMA DE CASOS DE USO ACTOR PROVEEDOR](CP.png)
-![DIAGRAMA DE CASOS DE USO ACTOR BENEFICIARIO](CB.png)
+#### 2.1.3. Diagrama de Casos de Uso de Negocio
+![DIAGRAMA DE CASOS DE USO](DCUNG2.png)
+*Figura 5. Diagrama de Casos de Uso de Negocio*
 
-#### 2.1.4.	Especificaciones de Casos de uso del Negocio
-CASO DE USO|	Loggearse
+#### 2.1.4.	Especificaciones de Casos de Uso del Negocio
+CUN01|	Solicitar pedido
 ---|---
-Descripción|	Este caso de uso empieza cuando el administrador o vendedor inician sesión en el sistema
-Actores de negocio|	Administrador y vendedor
-Entradas|	Detalle del usuario, nombre de usuario, password del usuario
-Entregables|	Ingreso del usuario en el sistema
-Mejoras |	Permitir que el usuarios que pueden recibir actualizaciones, de los reportes cuando inicien sesión.
+Descripción|	Este caso de uso empieza cuando el cliente realiza el pedido de 1 o varios productos.
+Actores de negocio|	Vendedor, Cliente
+Entradas|	Solicitud de pedido
+Entregables|	Reporte de pedido
+Mejoras |	Reporte de producto más pedido.
 
-CASO DE USO	|Registrar venta
----|---
-Descripción|	Este caso de uso empieza cuando el vendedor ingresa al sistema los datos de la venta y el administrador puede modificar el registro de ventas.
-Actores de negocio|	Vendedor, administrador
-Entradas	|Modificar registro, generar reporte
-Entregables	|
-Mejoras 	|Generar reporte de ventas de acuerdo al registro de ventas que hace el vendedor.
+*Tabla No. 3. CUN01 Solicitar pedido*
 
-CASO DE USO|	Registrar compra
+CUN02|Registrar pedido
 ---|---
-Descripción|	Este caso de uso empieza cuando el administrador ingresa al sistema para realizar el registro de las materias primas adquiridas del proveedor.
-Actores de negocio|	Administrador
-Entradas	|Descripción de la materia prima, datos del proveedor, fecha de entrega, solicitud de cotización
-Entregables	|El administrador hace una solicitud de cotización al proveedor.
+Descripción|	Este caso de uso empieza cuando el vendedor recibe el pedido pendiente del cliente.
+Actores de negocio|	Vendedor 
+Entradas	| Solicitud de pedido, detalles del producto que quiere adquirir
+Entregables	| Registrar pedido
+Mejoras 	| Generar reporte de ventas de acuerdo al registro de ventas que hace el vendedor. El cliente solicitara el producto que requiere, mediante el cual el administrador podrá prever la cantidad de materia que se necesitara para la producción de lo solicitado, el mismo que en un plazo breve podrán dar respuesta a su solicitud y entrega y de esta manera poder gestionar eficientemente la producción y gastos que genera la producción.
+
+*Tabla No. 4. CUN02 Registrar pedido*
+
+CUN03|	Registrar venta
+---|---
+Descripción|	Este caso de uso empieza cuando el vendedor ingresa la venta realizada, antes verficando el stock de cada producto pedido.
+Actores de negocio|	Vendedor, Cliente
+Entradas	| Verificación del stock del producto pedido, detalles del producto
+Entregables	|Generar reporte de ventas
 Mejoras 	|Actualización de constante de los precios del producto, de acuerdo a la cotización. 
 
-CASO DE USO|	Gestionar usuarios
----|---
-Descripción|	El administrador gestionará los usuarios de los vendedores.
-Actores de negocio|	Administrador y vendedor
-Entradas|	Datos del vendedor, número de ventas
-Entregables|	Control de acceso e ingresos a la empresa
-Mejoras |	Información ordenada de los vendedores y su respectivo control de acceso a los sistemas, equipos, etc.
+*Tabla No. 5. CUN03 Registrar venta*
 
-CASO DE USO|	Gestionar clientes
+CUN04|	Registrar compra
+---|---
+Descripción|	Este caso de uso empieza cuando el administrador ingresa el registro de productos adquiridas del proveedor.
+Actores de negocio|	Administrador, Proveedor
+Entradas	|Descripción de la materia prima, datos del proveedor, fecha de entrega, solicitud de cotización
+Entregables	|El administrador hace una solicitud de cotización al proveedor
+Mejoras 	|Actualización de constante de los precios del producto, de acuerdo a la cotización. 
+
+*Tabla No. 6. CUN04 Registrar compra*
+
+CUN05|	Generar reporte
+---|---
+Descripción|	El vendedor entrega el reporte de ventas realizadas
+Actores de negocio|	Vendedor
+Entradas|	Número de ventas, detalle de las ventas
+Entregables|	Control de acceso e ingresos a la empresa
+Mejoras |	Información ordenada de las ventas
+
+*Tabla No. 7. CUN05 Generar reporte*
+
+CUN06|	Registrar cliente
 ---|---
 Descripción|	El vendedor registrará a los clientes.
-Actores de negocio|	Vendedores y clientes
+Actores de negocio|	Vendedor, Clientes
 Entradas|	Datos del cliente, número de compras
-Entregables|	Ventas
+Entregables|	Reporte de clientes potenciales
 Mejoras |	Incremento de ventas al no perder potenciales clientes
 
-CASO DE USO|	Gestionar proveedores
+*Tabla No. 8. CUN06 Registrar cliente*
+
+CUN07|	Administrar stock
 ---|---
 Descripción|	El administrador desarrollará relaciones con proveedores de bienes y servicios.
-Actores de negocio|	Administrador y proveedores
-Entradas|	Productos de materia prima
+Actores de negocio|	Administrador, Vendedor
+Entradas|	Reporte de producto más vendido
 Entregables|	Inversiones
-Mejoras |	La empresa comprará materia prima para generar más producción y optimizar las ventas.
+Mejoras |	La empresa comprará el producto para generar más producción y optimizar las ventas.
 
-CASO DE USO|	Gestionar productos
----|---
-Descripción|	Este caso inicia cuando el cliente solicita el producto, y el administrador requiere la materia prima y realiza un proceso para realizar el producto, asimismo culmina cuando se hace la entrega del mismo.
-Actores de negocio|	Cliente, Administrador, Producción
-Entradas	|Inicio de procesamiento de la solicitud del cliente (solicitud de materia y producción)
-Entregables	|Producción del producto solicitado y proceso de entrega del mismo.
-Mejoras 	|El cliente solicitara el producto que requiere, mediante el cual el administrador podrá prever la cantidad de materia que se necesitara para la producción de lo solicitado, el mismo que en un plazo breve podrán dar respuesta a su solicitud y entrega y de esta manera poder gestionar eficientemente la producción y gastos que genera la producción.
+*Tabla No. 9. CUN07 Administrar stock*
 
-CASO DE USO|	Gestionar inventario
+CUN08|	Administrar inventario
 ---|---
 Descripción|	Inicia cuando el administrador registra la solicitud del cliente, después registra y entrega los materiales al área de producción para la fabricación del producto, asimismo inspecciona la producción, finalmente registra en el inventario y procede a la entrega al cliente.
-Actores de negocio|	Administrador, Producción
-Entradas|	El administrador registra y entrega la materia prima
-Entregables	|El área de producción entrega al administrador lo fabricado.
-Mejoras |	Mediante la implementación del sistema, el administrador podrá tener mayor control del almacén de la materia prima, asimismo optimizará la fabricación del producto de manera eficiente, y la entrega será en el tiempo más breve para la satisfacción del cliente.
-
-CASO DE USO|	Registrar excesos
----|---
-Descripción|	Este proceso inicia cuando el área de producción, tiene excesos y las desecha, y culmina cuando el administrador registra estos y el beneficiario solicita los excesos.
-Actores de negocio|	Producción, Administrador, beneficiario
-Entradas|	Producción desecha excesos y el administrador lo registra.
-Entregables	|El beneficiario solicita a la administración los desechos excedentes.
-Mejoras |	Mediante el sistema el área de producción podrá registra los desechos y el administrador podrá tener la cantidad de esta, asimismo el beneficiario podrá solicitar y la respuesta será inmediata ya sea con la entrega de estos o no.
-
-CASO DE USO	|Modificar cliente
----|---
-Descripción|	Este caso de uso permite editar los datos del cliente en el sistema
-Actores de negocio|	Cliente, Administrador
-Entradas|	Datos del cliente
-Entregables|	Actualización de datos del cliente en el sistema
-Mejoras 	|Permitir él envió de una copia de la edición de los datos del cliente al correo, para una mayor transparencia con el manejo de datos del cliente.
-
-CASO DE USO|	Modificar usuarios
----|---
-Descripción	|Este caso de uso permite editar los datos del usuario en el sistema
 Actores de negocio|	Administrador
-Entradas|	Detalle del usuario, nombre de usuario, password del usuario
-Entregables|	Actualización de datos del usuario en el sistema
-Mejoras |	Permitir el envío de los datos de acceso de los usuarios al correo del usuario cada vez que se realice una modificación.
+Entradas|	Reporte de ventas, reporte de compras
+Entregables	|El área de producción entrega al administrador lo fabricado.
+Mejoras |	Mediante la implementación del sistema, el administrador podrá tener mayor control del almacén del producto, asimismo optimizará la fabricación del producto de manera eficiente, y la entrega será en el tiempo más breve para la satisfacción del cliente.
 
-CASO DE USO|	Modificar producto
----|---
-Descripción|	Este caso de uso permite editar los datos del producto en el sistema
-Actores de negocio|	Proveedor , Administrador
-Entradas|	Detalle del producto, precio de venta del producto, fecha de producción.
-Entregables|	Actualización de datos del producto en el sistema
-Mejoras |	Permitir la actualización diaria del precio de los productos en base al costo de la materia prima.
+*Tabla No. 10. CUN08 Administrar inventario*
 
 ### 2.2.	Modelado de análisis de negocios
 #### 2.2.1.	Lista de Trabajadores de Negocio
@@ -215,7 +198,7 @@ Lista de trabajadores de negocio
 Nombre|	Descripción
 ---|---
 Administrador|	El administrador tiene acceso al sistema y tiene la gestión de procesos de la empresa.
-Vendedor|	El vendedor se encarga de la venta de los productos y su gestión.
+Vendedor|	El vendedor se encarga de la venta de los productos de manera eficiente y generar los reportes de ventas.
 
 #### 2.2.2.	Lista de Entidades de Negocio
 A diferencia de modelo de caso de negocio en el modelo de análisis pasamos a una vista   interna   del   proceso   de “Sistema de inventario”, pudiendo analizar los trabajadores de la empresa "Nabu Technologies" y además identificaremos las entidades que se manejan en nuestro proceso.
@@ -234,9 +217,11 @@ EN06 |Reporte de ventas	|Documento donde se encuentran las ventas realizadas por
 EN07 |Reporte de compras	|Documento donde se encuentran las compras realizadas por el negocio y sus detalles|	I|	P
 
 #### 2.2.3. Realización de Casos de Uso del Negocio
-Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.>
+Las Realizaciones de Casos de Uso del Negocio (RCUN) analizan los procesos del negocio. Los diagramas de Actividades deben reflejar los procesos de negocios ideales e incluir Swimlanes y conexiones con Objetos (Business Entities). Debe mostrarse de manera gráfica aquellas actividades que se pueden automatizar.
+
 
 #### 2.2.4. Diagrama de actividades
+
 
 #### 2.2.5. Realización de clases de dominio
 
