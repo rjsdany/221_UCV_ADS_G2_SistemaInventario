@@ -369,6 +369,7 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
    4. Emitir informes cuando los usuarios o directivos lo necesiten (diarios, semanales, quincenales, etc.)
   
 ##### Requerimientos funcionales
+Son actividades, comportamientos, funciones y requerimientos que el sistema debe realizar por ciertas condiciones y están asociados a la característica, funcionalidad del sistema.
 -	El sistema permitirá administrar el usuario y producto.
 -	El sistema permitirá registrar clientes.
 -	El sistema permitirá como parte de administrar realizar el ingreso, modificación, consulta y eliminación.
@@ -379,8 +380,19 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
 -	El sistema permitirá ingresar datos y guardarlos.
 
 ##### Requerimientos no funcionales
+Son propiedades generales y condicionamientos comunes que desarrolla el sistema y están asociados a la seguridad, rendimiento, tiempo de respuesta, usabilidad.
+1. Flexibilidad
+ - Funcionamiento por módulos.
+2 Usabilidad
+ - El sistema de inventario es capaz de cumplir los objetivos deseados por la empresa con la efectividad, eficiencia y satisfacción.
+3. Mantenibilidad	
+ - Todos los módulos son aprobados utilizando el plan de pruebas, cada módulo depende de otro para mostrar y almacenar información.
+4. Eficiencia
+ - El sistema es capaz de registrar múltiples equipos de forma recurrente.
+5. Seguridad 
+ - La información tiene respaldo en caso de fallas en el 
+ - Los datos suministrados por el sistema son examinado y verificados por el Ingeniero encargado, realizando pruebas de visibilidad.
 
- 
 #### 3.2.6. Especificaciones de Casos de Uso
 CUS01|	Solicitar pedido
 ---|---
@@ -565,6 +577,7 @@ Post condiciones|
 *Tabla No. 31. CUS13 Entrega de productos*
  
 ### 3.3. Prototipo de principales interfaces
+
  
 ### 3.4. Diagrama de clases de diseño
  
