@@ -334,7 +334,7 @@ Actor |	Caso de Uso | Complejidad | Precedencia | Premura | Riesgo | Total
 ---|---|---|---|---|---|---
 ---|---|0.4|0.3|0.2|0.1|1.5
 Cliente |Solicitar pedido|	0|5 |0|0 | 1.00
-Vendedor |Consultar pedido|	2| 5|3 |1 |2.00
+Vendedor |Consultar producto|	2| 5|3 |1 |2.00
 Vendedor |Registrar pedido|	3| 5| 5| 5|2.80
 Vendedor |Reportar venta|	3| 5| 5| 3|2.67
 Vendedor |Registrar producto|	3| 5| 5| 3|2.67
@@ -410,7 +410,7 @@ Post condiciones|
 
 *Tabla No. 19. CUS01 Solicitar pedido*
  
-CUS02|	Consultar pedido
+CUS02|	Consultar producto
 ---|---
 Tipo|	Primario
 Autor|	Vendedor
