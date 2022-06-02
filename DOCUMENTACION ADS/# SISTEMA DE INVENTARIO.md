@@ -398,9 +398,9 @@ Son propiedades generales y condicionamientos comunes que desarrolla el sistema 
 #### 3.2.6. Especificaciones de Casos de Uso
 CUS01|	Solicitar pedido
 ---|---
-Tipo|	
+Tipo|	Primario
 Autor|	Cliente
-Actores|	
+Actores|	Cliente
 Iteración|	
 Casos de uso relacionados |	
 Breve Descripción|	
@@ -412,8 +412,8 @@ Post condiciones|
  
 CUS02|	Consultar pedido
 ---|---
-Tipo|	
-Autor|	
+Tipo|	Primario
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
@@ -427,7 +427,7 @@ Post condiciones|
 CUS03|	Registrar pedido
 ---|---
 Tipo|	
-Autor|	
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
@@ -441,7 +441,7 @@ Post condiciones|
 CUS04|	Reportar venta
 ---|---
 Tipo|	
-Autor|	
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
@@ -455,7 +455,7 @@ Post condiciones|
 CUS05|	Registrar producto
 ---|---
 Tipo|	
-Autor|	
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
@@ -469,7 +469,7 @@ Post condiciones|
 CUS06|	Emitir comprobante de venta
 ---|---
 Tipo|	
-Autor|	
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
@@ -483,7 +483,7 @@ Post condiciones|
 CUS07|	Efectuar pago
 ---|---
 Tipo|	
-Autor|	
+Autor|	Vendedor
 Actores|	
 Iteración|	
 Casos de uso relacionados |	
