@@ -468,7 +468,7 @@ Post condiciones|
  
 CUS06|	Emitir comprobante de venta
 ---|---
-Tipo|	
+Tipo|	gfdg
 Autor|	Vendedor
 Actores|	
 Iteración|	
