@@ -592,7 +592,7 @@ Post condiciones|
 ### 3.5. Diagrama de paquetes
 
 ### 3.6. Diagrama de secuencia
-![DiagramaSecuencia](DIAGRAMA DE SECUENCIA.png)
+![DiagramaSecuencia](Diagrama de Secuencia - Damazo - v2_page-0001.jpg)
 
 ### 3.7. Diagrama de estado
 ![DiagramaEstado](DIAGRAMA DE ESTADO.png)
