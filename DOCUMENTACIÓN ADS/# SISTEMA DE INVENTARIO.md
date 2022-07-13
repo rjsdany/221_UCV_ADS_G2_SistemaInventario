@@ -404,7 +404,7 @@ Actores|	Cliente
 Iteración|	1
 Casos de uso relacionados |	
 Breve Descripción|	El cliente solicita un pedido al vendedor
-Referencias|	El vendedor evalua existencia y stock de productos pedidos
+Referencias|	Reporte de ventas, Registro de producto y Reporte de compras
 Pre condiciones|	Registro de producto y Stock de producto
 Post condiciones|	Actualizar stock de producto
 
@@ -416,9 +416,9 @@ Tipo|	Primario
 Autor|	Vendedor
 Actores|	Vendedor
 Iteración|	2
-Casos de uso relacionados |	CUS02_Registrar Pedido
+Casos de uso relacionados |	
 Breve Descripción|	El caso de uso permite consultar producto al vendedor
-Referencias|	
+Referencias|	Registro de producto y Reporte de compras
 Pre condiciones|	El actor debe consultar su pedido
 Post condiciones|	El administrador consulta el producto
 
@@ -430,9 +430,9 @@ Tipo|	Secundario
 Autor|	Vendedor
 Actores|	Vendedor
 Iteración|	3
-Casos de uso relacionados |	CUS03_Reporte de ventas 
+Casos de uso relacionados |	Verificar stock
 Breve Descripción|	Permite registrar la solicitud de pedido
-Referencias|	
+Referencias|	Registro de producto
 Pre condiciones|	El actor debe registrar su pedido
 Post condiciones|	El administrador registra los pedidos
 
@@ -444,9 +444,9 @@ Tipo|	Secundario
 Autor|	Vendedor
 Actores|	Vendedor
 Iteración|	4
-Casos de uso relacionados |	CUS04_Registro de producto
+Casos de uso relacionados |	
 Breve Descripción|	El caso de uso permite el reporte de ventas 
-Referencias|	
+Referencias|	Actualizar Reporte de ventas y Registro de producto
 Pre condiciones|	El actor registra su reporte de ventas 
 Post condiciones|	Validación del reporte de ventas
 
@@ -460,21 +460,21 @@ Actores|	Vendedor
 Iteración|	5
 Casos de uso relacionados |	CUS05_Emite comprobante de pago
 Breve Descripción|	Permite registrar producto 
-Referencias|	
+Referencias|	Reporte de compras y Actualiza Registro de productos
 Pre condiciones|	EL administrador registra el producto
 Post condiciones|	Validación del producto registrado
 
 *Tabla No. 23. CUS05 Registrar producto*
  
-CUS06|	Emitir comprobante de venta
+CUS06|	Emitir comprobante de pago
 ---|---
 Tipo|	Terciario
 Autor|	Vendedor
 Actores|	Vendedor
 Iteración|	6
-Casos de uso relacionados |	
+Casos de uso relacionados |	Efectua pago
 Breve Descripción|	Permite emitir comprobante de venta
-Referencias|	Registra la emisión del comprobante de venta 
+Referencias|	Registra la emisión del comprobante de venta y Actualiza Reporte de ventas
 Pre condiciones|	El administrador emite comprobante de venta 
 Post condiciones|	El autor emite comprobante de meta 
 
@@ -486,7 +486,7 @@ Tipo|	Primario
 Autor|	Vendedor
 Actores|	Vendedor
 Iteración|	7
-Casos de uso relacionados |	
+Casos de uso relacionados |	Emitir comprobante de pago
 Breve Descripción|	Permite efectuar la validación del pago
 Referencias|	Se efectúa el proceso del pago  
 Pre condiciones|	El actor efectúa su pago 
@@ -499,8 +499,8 @@ CUS08|	Verificar stock
 Tipo|	Secundaria 
 Autor|	Administrador
 Actores|	Administrador
-Iteración|	3
-Casos de uso relacionados |	
+Iteración|	8
+Casos de uso relacionados |	Control de inventario
 Breve Descripción|	El caso de uso permite verificar stock
 Referencias|	
 Pre condiciones|	El actor debe verificar stock del sistema 
@@ -513,8 +513,8 @@ CUS09|	Eliminar producto
 Tipo |	Secundario 
 Autor |	Administrador
 Actores |	Administrador 
-Iteración |	2
-Casos de uso relacionados |	
+Iteración |	9
+Casos de uso relacionados |	Control de inventario
 Breve Descripción |	Permite eliminar producto 
 Referencias |	
 Pre condiciones |	El actor debe eliminar producto 
@@ -527,10 +527,10 @@ CUS10|	Actualizar producto
 Tipo |	Terciario
 Autor |	Administrador 
 Actores |	Administrador 
-Iteración |	2
-Casos de uso relacionados |	
+Iteración |	10
+Casos de uso relacionados |	Control de inventario
 Breve Descripción |	Permite la actualización del producto 
-Referencias |	Se registra la actuación del producto 
+Referencias |	Se registra la actualización del producto 
 Pre condiciones |	El administrador actualiza el producto 
 Post condiciones |	Validación de la actualización del producto 
 
@@ -541,10 +541,10 @@ CUS11|	Controlar inventario
 Tipo |	Primario 
 Autor |	Administrador 
 Actores |	Administrador 
-Iteración |	
-Casos de uso relacionados |	
+Iteración |	11
+Casos de uso relacionados |	Actualizar producto, Eliminar producto, Verificar stock
 Breve Descripción |	El caso de uso permite controlar inventario 
-Referencias |	Registra el control del inventario 
+Referencias |	Reporte de ventas, Reporte de compras, Comprobante de pago y Registro de productos
 Pre condiciones |	El administrador controla el inventario 
 Post condiciones |	El autor debe controla el inventario 
 
@@ -555,10 +555,10 @@ CUS12|	Solicitar producto a proveedor
 Tipo |	Primario 
 Autor |	Proveedor, administrador 
 Actores |	Proveedor, administrador 
-Iteración |	2
+Iteración |	12
 Casos de uso relacionados |	
 Breve Descripción |	Permite registrar la solicitud del producto al proveedor 
-Referencias |	Solicita el registro del producto al proveedor 
+Referencias |	Solicita el registro del producto al proveedor y Actualiza Registro de Compras
 Pre condiciones |	El actor solicita el producto al proveedor 
 Post condiciones |	El administrador solicita producto al proveedor 
 
@@ -569,10 +569,10 @@ CUS13|	Entrega de productos
 Tipo |	Primario 
 Autor |	Proveedor 
 Actores |	Proveedor 
-Iteración |	
+Iteración |	13
 Casos de uso relacionados |	
 Breve Descripción |	Permite la entrega de producto 
-Referencias |	Registro de la entrega de producto 
+Referencias |	Actualiza el stock de producto y Reporte de ventas
 Pre condiciones |	El actor entrega los productos 
 Post condiciones |   El proveedor registra la entrega de producto
 
