@@ -414,167 +414,167 @@ CUS02|	Consultar producto
 ---|---
 Tipo|	Primario
 Autor|	Vendedor
-Actores|	
-Iteración|	
-Casos de uso relacionados |	
-Breve Descripción|	
+Actores|	Vendedor
+Iteración|	2
+Casos de uso relacionados |	CUS02_Registrar Pedido
+Breve Descripción|	El caso de uso permite consultar producto al vendedor
 Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Pre condiciones|	El actor debe consultar su pedido
+Post condiciones|	El administrador consulta el producto
 
 *Tabla No. 20. CUS02 Consultar pedido*
  
 CUS03|	Registrar pedido
 ---|---
-Tipo|	
+Tipo|	Secundario
 Autor|	Vendedor
-Actores|	
-Iteración|	
-Casos de uso relacionados |	
-Breve Descripción|	
+Actores|	Vendedor
+Iteración|	3
+Casos de uso relacionados |	CUS03_Reporte de ventas 
+Breve Descripción|	Permite registrar la solicitud de pedido
 Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Pre condiciones|	El actor debe registrar su pedido
+Post condiciones|	El administrador registra los pedidos
 
 *Tabla No. 21. CUS03 Registrar pedido*
  
 CUS04|	Reportar venta
 ---|---
-Tipo|	
+Tipo|	Secundario
 Autor|	Vendedor
-Actores|	
-Iteración|	
-Casos de uso relacionados |	
-Breve Descripción|	
+Actores|	Vendedor
+Iteración|	4
+Casos de uso relacionados |	CUS04_Registro de producto
+Breve Descripción|	El caso de uso permite el reporte de ventas 
 Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Pre condiciones|	El actor registra su reporte de ventas 
+Post condiciones|	Validación del reporte de ventas
 
 *Tabla No. 22. CUS04 Reportar venta*
 
 CUS05|	Registrar producto
 ---|---
-Tipo|	
+Tipo|	Terciario
 Autor|	Vendedor
-Actores|	
-Iteración|	
-Casos de uso relacionados |	
-Breve Descripción|	
+Actores|	Vendedor
+Iteración|	5
+Casos de uso relacionados |	CUS05_Emite comprobante de pago
+Breve Descripción|	Permite registrar producto 
 Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Pre condiciones|	EL administrador registra el producto
+Post condiciones|	Validación del producto registrado
 
 *Tabla No. 23. CUS05 Registrar producto*
  
 CUS06|	Emitir comprobante de venta
 ---|---
-Tipo|	gfdg
+Tipo|	Terciario
 Autor|	Vendedor
-Actores|	
-Iteración|	
+Actores|	Vendedor
+Iteración|	6
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción|	Permite emitir comprobante de venta
+Referencias|	Registra la emisión del comprobante de venta 
+Pre condiciones|	El administrador emite comprobante de venta 
+Post condiciones|	El autor emite comprobante de meta 
 
 *Tabla No. 24. CUS06 Emitir comprobante de venta*
  
 CUS07|	Efectuar pago
 ---|---
-Tipo|	
+Tipo|	Primario 
 Autor|	Vendedor
-Actores|	
-Iteración|	
+Actores|	Vendedor
+Iteración|	7
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción|	Permite efectuar la validación del pago
+Referencias|	Se efectúa el proceso del pago  
+Pre condiciones|	El actor efectúa su pago 
+Post condiciones|	Se registra efectuándose su pago 
 
 *Tabla No. 25. CUS07 Efectuar pago*
  
 CUS08|	Verificar stock
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo|	Secundaria 
+Autor|	Administrador
+Actores|	Administrador
+Iteración|	3
 Casos de uso relacionados |	
-Breve Descripción|	
+Breve Descripción|	El caso de uso permite verificar stock
 Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Pre condiciones|	El actor debe verificar stock del sistema 
+Post condiciones|	Validación verificar stock
 
 *Tabla No. 26. CUS08 Verificar stock*
  
 CUS09|	Eliminar producto
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo |	Secundario 
+Autor |	Administrador
+Actores |	Administrador 
+Iteración |	2
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción |	Permite eliminar producto 
+Referencias |	
+Pre condiciones |	El actor debe eliminar producto 
+Post condiciones |	El administrador elimina el producto 	
 
 *Tabla No. 27. CUS09 Eliminar producto*
  
 CUS10|	Actualizar producto
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo |	Terciario
+Autor |	Administrador 
+Actores |	Administrador 
+Iteración |	2
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción |	Permite la actualización del producto 
+Referencias |	Se registra la actuación del producto 
+Pre condiciones |	El administrador actualiza el producto 
+Post condiciones |	Validación de la actualización del producto 
 
 *Tabla No. 28. CUS10 Actualizar producto*
 
 CUS11|	Controlar inventario
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo |	Primario 
+Autor |	Administrador 
+Actores |	Administrador 
+Iteración |	
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción |	El caso de uso permite controlar inventario 
+Referencias |	Registra el control del inventario 
+Pre condiciones |	El administrador controla el inventario 
+Post condiciones |	El autor debe controla el inventario 
 
 *Tabla No. 29. CUS11 Controlar inventario*
  
 CUS12|	Solicitar producto a proveedor
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo |	Primario 
+Autor |	Proveedor, administrador 
+Actores |	Proveedor, administrador 
+Iteración |	2
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción |	Permite registrar la solicitud del producto al proveedor 
+Referencias |	Solicita el registro del producto al proveedor 
+Pre condiciones |	El actor solicita el producto al proveedor 
+Post condiciones |	El administrador solicita producto al proveedor 
 
 *Tabla No. 30. CUS12 Solicitar producto a proveedor*
 
 CUS13|	Entrega de productos
 ---|---
-Tipo|	
-Autor|	
-Actores|	
-Iteración|	
+Tipo |	Primario 
+Autor |	Proveedor 
+Actores |	Proveedor 
+Iteración |	
 Casos de uso relacionados |	
-Breve Descripción|	
-Referencias|	
-Pre condiciones|	
-Post condiciones|	
+Breve Descripción |	Permite la entrega de producto 
+Referencias |	Registro de la entrega de producto 
+Pre condiciones |	El actor entrega los productos 
+Post condiciones |   El proveedor registra la entrega de producto
 
 *Tabla No. 31. CUS13 Entrega de productos*
  
@@ -588,14 +588,24 @@ Post condiciones|
 *Figura 13. Prototipo de principales interfaces*
  
 ### 3.4. Diagrama de clases de diseño
- 
+![DiagramaClases](DIAGRAMA DE CLASES.png)
+
+*Figura 14. Diagrama de clases de diseño*
+
 ### 3.5. Diagrama de paquetes
+![DiagramaPaquetes](DIAGRAMA DE PAQUETES.png)
+
+*Figura 15. Diagrama de paquetes*
 
 ### 3.6. Diagrama de secuencia
-![DiagramaSecuencia](Diagrama de Secuencia - Damazo - v2_page-0001.jpg)
+![DiagramaSecuencia](DIAGRAMA DE SECUENCIA.png)
+
+*Figura 16. Diagrama de secuencia*
 
 ### 3.7. Diagrama de estado
 ![DiagramaEstado](DIAGRAMA DE ESTADO.png)
+
+*Figura 17. Diagrama de estado*
  
 ## CONCLUSIONES
 - El manejo de un modelo o sistema de inventarios, proporciona la estructura organizacional y las políticas operativas para poder mantener y controlar la existencia de bienes, este modelo es responsable de pedir y recibir los recursos materiales, estableciendo el momento de realizar dicho pedido.
