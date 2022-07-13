@@ -592,10 +592,10 @@ Post condiciones|
 ### 3.5. Diagrama de paquetes
 
 ### 3.6. Diagrama de secuencia
-![Diagrama](DIAGRAMA DE SECUENCIA.png)
+![DiagramaSecuencia](DIAGRAMA DE SECUENCIA.png)
 
 ### 3.7. Diagrama de estado
-![Diagrama](DIAGRAMA DE SECUENCIA.png)
+![DiagramaEstado](DIAGRAMA DE ESTADO.png)
  
 ## CONCLUSIONES
 - El manejo de un modelo o sistema de inventarios, proporciona la estructura organizacional y las políticas operativas para poder mantener y controlar la existencia de bienes, este modelo es responsable de pedir y recibir los recursos materiales, estableciendo el momento de realizar dicho pedido.
