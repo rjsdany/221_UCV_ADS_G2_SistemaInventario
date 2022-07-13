@@ -596,9 +596,17 @@ Post condiciones|
 ### 3.7. Diagrama de estado
  
 ## CONCLUSIONES
-<Deben incluirse como conclusiones los aspectos aprendidos, aplicados y trascendentes del proyecto, se va actualizando según los avances de proyecto>
+- El manejo de un modelo o sistema de inventarios, proporciona la estructura organizacional y las políticas operativas para poder mantener y controlar la existencia de bienes, este modelo es responsable de pedir y recibir los recursos materiales, estableciendo el momento de realizar dicho pedido.
 
- ## ANEXOS
-<Deben incluirse como anexos las entrevistas efectuadas a los clientes del sistema y todos los documentos RUP que siguen una numeración de página propia, hojas Excel, etc.>
+- El objetivo de este modelo es determinar la cantidad óptima de pedido y el instante en qué debe hacerse, es decir, cuánto pedir y cuándo pedir, puesto que el inventario es limitado y el restablecimiento es instantáneo, se deduce que el pedido debe realizarse en cuanto el inventario se agote.
+
+- Los modelos de inventario, aportan gran conocimiento y aplicabilidad a la empresa, ya que por medio de ellos se puede hacer un manejo integral de los recursos de mercancía, con el fin de optimizar los costos involucrados en el proceso de inventario que exista en la organización, de acuerdo al tipo de demanda existente, haciendo que la misma sea mucho más optima y rentable por contar con los requerimientos necesarios en el momento exacto.
+
+- Los sistemas de inventario son muy importantes para una empresa ya sea por los diferentes factores anteriormente mencionados, pero también es importante comprender su funcionamiento y su objetivo para poder implementar esos sistemas de manera adecuada ya que si son utilizados de forma exacta podrían favorecer en un nivel muy considerable, además de que puede ahorrar muchos gastos.
+
+- Los costos por inventarios pueden llegar a ser muy altos sino se le da un manejo adecuado, por lo que siempre se debe buscar que haya un equilibrio entre lo que la demanda pide y las reservas con las que cuenta la empresa, para optimizar costos de inventario en la organización y poder satisfacer las necesidades de los clientes.
+
+
+
 
 
