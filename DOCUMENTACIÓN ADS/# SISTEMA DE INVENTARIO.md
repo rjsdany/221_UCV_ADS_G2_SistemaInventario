@@ -7,11 +7,11 @@
 
 INTEGRANTES:| ORCID| PORCENTAJE DE TRABAJO
 ---|---|---
-Damazo Valdeos, David Jared| 0000-0002-4823-7379| 90%
+Damazo Valdeos, David Jared| 0000-0002-4823-7379| 100%
 Esteban Lastaunado, Dibail Sidane| 0000-0002-3473-338X| 80%
 Lopez Roman, Segundo Artemio| 0000-0001-9993-6797| 100%
 Obregon Moran, Max Smith| 0000-0001-9226-5388| 100%
-Remigio Ramirez, George Neffer| 0000-0002-7269-5927| 80%
+Remigio Ramirez, George Neffer| 0000-0002-7269-5927| 100%
 Rocca Puma, Maykol| 0000-0003-2979-0715| 100%
 Rojas Flores, Daniela Ariana| 0000-0001-7975-4785| 100%
 
@@ -588,12 +588,12 @@ Post condiciones |   El proveedor registra la entrega de producto
 *Figura 13. Prototipo de principales interfaces*
  
 ### 3.4. Diagrama de clases de diseño
-![DiagramaClases](DIAGRAMA DE CLASES.png)
+![DiagramaClases](DIAGRAMA_DE_CLASES.png)
 
 *Figura 14. Diagrama de clases de diseño*
 
 ### 3.5. Diagrama de paquetes
-![DiagramaPaquetes](DIAGRAMA DE PAQUETES.png)
+![DiagramaPaquetes](DIAGRAMA_DE_PAQUETES.png)
 
 *Figura 15. Diagrama de paquetes*
 
