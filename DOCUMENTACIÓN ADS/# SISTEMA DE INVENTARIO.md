@@ -598,12 +598,12 @@ Post condiciones |   El proveedor registra la entrega de producto
 *Figura 15. Diagrama de paquetes*
 
 ### 3.6. Diagrama de secuencia
-![DiagramaSecuencia](DIAGRAMA DE SECUENCIA.png)
+![DiagramaSecuencia](DIAGRAMA_DE_SECUENCIA.png)
 
 *Figura 16. Diagrama de secuencia*
 
 ### 3.7. Diagrama de estado
-![DiagramaEstado](DIAGRAMA DE ESTADO.png)
+![DiagramaEstado](DIAGRAMA_DE_ESTADO.png)
 
 *Figura 17. Diagrama de estado*
  
