@@ -595,7 +595,7 @@ Post condiciones|
 ![Diagrama](DIAGRAMA DE SECUENCIA.png)
 
 ### 3.7. Diagrama de estado
-![Diagrama](DIAGRAMA DE ESTADO.png)
+![Diagrama](DIAGRAMA DE SECUENCIA.png)
  
 ## CONCLUSIONES
 - El manejo de un modelo o sistema de inventarios, proporciona la estructura organizacional y las políticas operativas para poder mantener y controlar la existencia de bienes, este modelo es responsable de pedir y recibir los recursos materiales, estableciendo el momento de realizar dicho pedido.
