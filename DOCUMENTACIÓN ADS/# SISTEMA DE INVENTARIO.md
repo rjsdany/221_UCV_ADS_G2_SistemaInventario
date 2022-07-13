@@ -361,7 +361,7 @@ La presente Especificación de requerimientos de software (SRS) del sistema a co
 ##### Propósito 
  - Permitir establecer las bases de acuerdo entre usuarios en lo que al proyecto de software se refiere. 
  - Ayudar a los usuarios finales del software a entender exactamente qué es lo que el cliente de software desea. 
- - 
+ 
 ##### Alcance 
  - Identificación del producto de software “SISCOOP” 
  - Objetivos del Sistema 
